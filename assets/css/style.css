@@ -11,6 +11,69 @@ body {
     background-color: #4b1214;
     border-bottom: 2px solid #350c0e;
     padding: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+.nav-link {
+    font-family: 'Play', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-nav {
+}
+
+.navbar--toggler-text {
+    font-size: .5em;
+    margin-bottom: 4px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.nav--item-width {
+    width: 100%;
+}
+
+.navbar--effect {
+    color: #fff;
+    padding: 1em 1.2em 1em 1em;
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.55s ease-in-out;
+    -webkit-transition: background-color 0.55s ease-in-out;
+    -o-transition: background-color 0.55s ease-in-out;
+}
+
+.navbar--effect:hover {
+    color: #fff;
+    background-color: #265c77;
+}
+
+.navbar--active, .navbar--active:hover {
+    padding: 1em 1.2em 1em 1em;  /* was 1.5em 1em 1.5em 1em */
+    color: #fff;
+    background-color: #6f1c1f;
+}
+
+.nav--icon  {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+}
+
+.logo--height {
+    height: 70px;
 }
 
 
