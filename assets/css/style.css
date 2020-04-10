@@ -5,6 +5,15 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+/* --------------------------------------------------------- Navigation */
+
+.navbar--custom {
+    background-color: #4b1214;
+    border-bottom: 2px solid #350c0e;
+    padding: 4px;
+}
+
+
 /* --------------------------------------------------------- Containers */
 
 .callout--container {
