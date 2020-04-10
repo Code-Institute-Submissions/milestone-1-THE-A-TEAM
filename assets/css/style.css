@@ -5,4 +5,15 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+/* --------------------------------------------------------- Containers */
+
+.callout--container {
+    height: 85vh;
+    background-image: url('../images/a-team_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
 
