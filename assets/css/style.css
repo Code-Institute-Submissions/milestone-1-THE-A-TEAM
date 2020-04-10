@@ -8,12 +8,38 @@ body {
 /* --------------------------------------------------------- Containers */
 
 .callout--container {
+    position: relative;
     height: 85vh;
     background-image: url('../images/a-team_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
+
+/* ----------------------------------------Jumbotron */
+
+.jumbotron {
+    background-color: rgba(38, 101, 130, 0.75);
+    /* background-color: rgba(100, 25, 25, 0.7); */
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.55em;
+}
+
+.jumbotron h2 {
+    color: white;
+    font-weight: semi-bold;
+    font-size: 1.25em;
+}
+
+
 
