@@ -23,6 +23,11 @@ body {
     text-align: center;
 }
 
+.nav-link p {
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
@@ -68,7 +73,7 @@ body {
 }
 
 .nav--icon  {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 2px;
 }
 
@@ -113,5 +118,25 @@ body {
     font-size: 1.25em;
 }
 
+/* --------------------------------------------------------- Media Queries */
 
+@media only screen and (min-width: 768px) {
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    .nav--item-width {
+        width: 5em;
+    }
+
+    .nav--icon  {
+        font-size: 1.2em;
+    }
+
+    .logo--height {
+        height: 100px;
+    }
+
+}
 
