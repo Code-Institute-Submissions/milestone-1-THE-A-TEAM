@@ -5,6 +5,10 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+/* ------------------------------------------------------------ Colors */
+
+
+
 /* --------------------------------------------------------- Navigation */
 
 .navbar--custom {
@@ -54,7 +58,7 @@ body {
 
 .navbar--effect {
     color: #fff;
-    padding: 1em 1.2em 1em 1em;
+    padding: 0.5em 1.2em 0.5em 1.2em;  /* was 1.5em 1em 1.5em 1em */
     transition: background-color 0.35s ease-in-out;
     -moz-transition: background-color 0.55s ease-in-out;
     -webkit-transition: background-color 0.55s ease-in-out;
@@ -67,7 +71,7 @@ body {
 }
 
 .navbar--active, .navbar--active:hover {
-    padding: 1em 1.2em 1em 1em;  /* was 1.5em 1em 1.5em 1em */
+    padding: 0.5em 1.2em 0.5em 1.2em;  /* was 1.5em 1em 1.5em 1em */
     color: #fff;
     background-color: #6f1c1f;
 }
@@ -97,13 +101,18 @@ body {
     justify-content: center;
 }
 
-/* ----------------------------------------Jumbotron */
+.help--container {
+    background-color: #e8f2f7;
+}
+
+/* ---------------------------------------------------------- Jumbotron */
 
 .jumbotron {
-    background-color: rgba(38, 101, 130, 0.75);
+    background-color: rgba(38, 101, 130, 0.8);
     /* background-color: rgba(100, 25, 25, 0.7); */
     border-radius: 5px;
     padding: 1.5em;
+    border: 1px solid #97ddf5;
 }
 
 .jumbotron h1 {
@@ -118,7 +127,34 @@ body {
     font-size: 1.25em;
 }
 
-/* --------------------------------------------------------- Media Queries */
+/* ----------------------------------------------------- Page Headings */
+
+.page--heading {
+    margin-top: 44px;
+}
+
+.page--heading h2 {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-style: italic;
+    color: #265c77;
+    text-shadow: 1px 1px #fff;    
+}
+
+/* ------------------------------------------------------------ Footer */
+
+footer {
+    background-color: #265c77;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding-top: 44px;
+    padding-bottom: 20px;
+    border-top: 2px solid #1e4b61;
+}
+
+/* ---------------------------------------------------- Media Queries */
 
 @media only screen and (min-width: 768px) {
 
@@ -136,6 +172,18 @@ body {
 
     .logo--height {
         height: 100px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .jumbotron h2 {
+        font-size: 1.5em;
+    }
+
+    .page--heading h2 {
+        font-size: 2.5em;
     }
 
 }
