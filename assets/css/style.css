@@ -185,7 +185,7 @@ body {
 .flip-card {
     background-color: transparent;
     width: 324px;
-    height: 398px;  /* was 420 */
+    height: 398px;
     perspective: 1000px; /* for 3D effect */
     display: block;
     margin-bottom: 50px;
@@ -230,10 +230,18 @@ body {
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #3e4d54;   /*   505b60      3e4d54     */
+    background-color: #3e4d54;
     color: grey;
     border-radius: 14px;
     transform: rotateY(180deg);
+    text-align: left;
+}
+
+.flip-card-back h2 {
+    margin: 8px 0 10px;
+    padding: 0px;
+    color: white;
+    text-align: center;
 }
 
 .flip--profile-image {
@@ -241,6 +249,19 @@ body {
     height: 398px;
 }
 
+.progressbar--height {
+    height: 20px;
+}
+
+.progress--bar-custom {
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.category--label {
+    margin-left: 20px;
+}
 
 /* ------------------------------------------------------------ Footer */
 
