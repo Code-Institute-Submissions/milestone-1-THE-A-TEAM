@@ -107,16 +107,15 @@ body {
     justify-content: center;
 }
 
-.help--container {
+.content--container {
     background-color: #e8f2f7;
-    padding-top: 44px;
 }
 
 /* ---------------------------------------------------------- Jumbotron */
 
 .jumbotron {
     background-color: rgba(38, 101, 130, 0.8);
-    /* background-color: rgba(100, 25, 25, 0.7); */
+    /* background-color: rgba(100, 25, 25, 0.7); previous color only delete when happy*/
     border-radius: 5px;
     padding: 1.5em;
     border: 1px solid #97ddf5;
@@ -145,7 +144,8 @@ body {
     font-size: 1.8em;
     font-style: italic;
     color: #265c77;
-    text-shadow: 1px 1px #fff;    
+    text-shadow: 1px 1px #fff;
+    margin: 44px 0 20px;    
 }
 
 /* --------------------------------------------------- How can we help */
