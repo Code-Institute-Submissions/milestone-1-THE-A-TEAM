@@ -91,6 +91,16 @@ body {
     height: 70px;
 }
 
+/* ----------------------------------------------------- Block dividers */
+
+.block--divider {
+    width: 10%;
+    height: 2px;
+    border: 0;
+    background-color: #61181a;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
 
 /* --------------------------------------------------------- Containers */
 
@@ -109,6 +119,12 @@ body {
 
 .content--container {
     background-color: #e8f2f7;
+}
+
+.fullpage--container {
+    margin-top: 91px;
+    padding-bottom: 30px;
+    clear: both;    
 }
 
 /* ---------------------------------------------------------- Jumbotron */
@@ -145,7 +161,11 @@ body {
     font-style: italic;
     color: #265c77;
     text-shadow: 1px 1px #fff;
-    margin: 44px 0 20px;    
+    margin-top: 44px;    
+}
+
+.page--heading p {
+    margin-bottom: .5em;  
 }
 
 /* --------------------------------------------------- How can we help */
@@ -230,6 +250,10 @@ footer {
 
     .page--heading h2 {
         font-size: 2.5em;
+    }
+
+    .fullpage--container {
+        margin-top: 139px;
     }
 
 }
