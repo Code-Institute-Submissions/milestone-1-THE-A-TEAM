@@ -249,6 +249,10 @@ body {
     height: 398px;
 }
 
+.progress {
+        background-color: #67757b;
+}
+
 .progressbar--height {
     height: 20px;
 }
@@ -261,6 +265,20 @@ body {
 
 .category--label {
     margin-left: 20px;
+    color: #fafafa;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.progressbar--text {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    color: #fafafa;
+    font-size: 1em;
 }
 
 /* ------------------------------------------------------------ Footer */
