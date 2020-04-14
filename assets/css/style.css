@@ -179,7 +179,12 @@ body {
 .team--content {
 }
 
-/* Flip card code/style adapted from snippet on W3-Schools
+/* Flip card code/style adapted from snippet on W3-Schools */
+
+#flip--card-ironman.flipped, #flip--card-captain.flipped, #flip--card-widow.flipped,
+#flip--card-hulk.flipped, #flip--card-hawkeye.flipped, #flip--card-thor.flipped {
+  transform: rotateY(180deg);
+}
 
 /* The flip card container - set the width and height to whatever you want. */
 .flip-card {
@@ -206,9 +211,9 @@ body {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+/* .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-}
+} */
 
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
