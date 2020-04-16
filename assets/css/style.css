@@ -382,9 +382,10 @@ body {
     padding: 20px 30px 20px 30px;
     background-color: #8badbe;
     position: relative;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     text-align: left;
     border-top: 2px solid #6f1c1f;
+    border-bottom: 2px solid #6f1c1f;
 }
 
 .timeline--content h3 {
@@ -393,6 +394,15 @@ body {
     color: #fafafa;
 }
 
+.timeline--border-right {
+    border-radius: 0px 50px 50px 0px;
+    border-right: 2px solid #6f1c1f;
+}
+
+.timeline--border-left {
+    border-radius: 50px 0px 0px 50px;
+    border-left: 2px solid #6f1c1f;
+}
 
 /* ------------------------------------------------------------ Footer */
 
