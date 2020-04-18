@@ -332,19 +332,19 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */  
-    top: 57px;
+    top: 37px;
     border-radius: 50%;
     z-index: 1;
 }
 
 /* Make sure that all arrows are pointing leftwards PROBLEM? */
-.timeline--entry::before {
+/* .timeline--entry::before {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent #265c77 transparent transparent;
     top: 42px;
-}
+} */
 
 /* Place the container to the left */
 .timeline--left {
@@ -357,7 +357,7 @@ body {
 }
 
 /* Add arrows to the left container (pointing right) */
-.timeline--left::before {
+/* .timeline--left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -368,30 +368,43 @@ body {
     border: medium solid #8badbe;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #8badbe;
-}
+} */
 
 /* Add arrows to the right container (pointing left) */
-.timeline--right::before {
+.timeline--right::before, .timeline--left::before {
     content: " ";
     height: 0;
     position: absolute;
     top: 42px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 60px;
     border: medium solid #8badbe;
     border-width: 10px 10px 10px 0;
     border-color: transparent #8badbe transparent transparent;
 }
 
+/* .timeline--left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 42px;
+    width: 0;
+    z-index: 1;
+    left: 60px;
+    border: medium solid #8badbe;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #8badbe transparent transparent;
+}
+ */
 /* Fix the circle for containers on the right side */
-.timeline--right::after {
-    left: 12px;
+.timeline--right::after, .timeline--left::after {
+    left: 14px;
 }
 
-.timeline--left::after {
-    left: 12px;
-}
+/* .timeline--left::after {
+    left: 14px;
+} */
 
 /* The actual content */
 .timeline--content {
@@ -406,8 +419,8 @@ body {
 
 .timeline--content h3 {
     margin-top: 0px;
-    font-size: 2.2em;
-    color: #fafafa;
+    font-size: 1.8em; /* 2.2 */
+    color: #fdfdfd;
 }
 
 .timeline--border-right {
@@ -537,13 +550,8 @@ footer {
     }
 
     /* Add arrows to the left container (pointing right) */
-    .timeline--left::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 42px;
-        width: 0;
-        z-index: 1;
+    .timeline--entry::before {
+        left: auto;
         right: 30px;
         border: medium solid #8badbe;
         border-width: 10px 0 10px 10px;
