@@ -313,10 +313,7 @@ body {
 .timeline--entry {
     position: relative;
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 25px 20px 70px;
     background-color: inherit;
 }
 
@@ -327,24 +324,15 @@ body {
     width: 32px;
     height: 32px;
     right: -16px;
-    background-color: #fff;
+    background-color: #6f1c1f;
     background-image: url("../images/shield.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */  
-    top: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 44px;
     border-radius: 50%;
     z-index: 1;
 }
-
-/* Make sure that all arrows are pointing leftwards PROBLEM? */
-/* .timeline--entry::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #265c77 transparent transparent;
-    top: 42px;
-} */
 
 /* Place the container to the left */
 .timeline--left {
@@ -356,26 +344,12 @@ body {
     left: 0%;
 }
 
-/* Add arrows to the left container (pointing right) */
-/* .timeline--left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 42px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid #8badbe;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #8badbe;
-} */
-
 /* Add arrows to the right container (pointing left) */
 .timeline--right::before, .timeline--left::before {
     content: " ";
     height: 0;
     position: absolute;
-    top: 42px;
+    top: 49px;
     width: 0;
     z-index: 1;
     left: 60px;
@@ -384,34 +358,16 @@ body {
     border-color: transparent #8badbe transparent transparent;
 }
 
-/* .timeline--left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 42px;
-    width: 0;
-    z-index: 1;
-    left: 60px;
-    border: medium solid #8badbe;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #8badbe transparent transparent;
-}
- */
 /* Fix the circle for containers on the right side */
 .timeline--right::after, .timeline--left::after {
     left: 14px;
 }
 
-/* .timeline--left::after {
-    left: 14px;
-} */
-
 /* The actual content */
 .timeline--content {
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px;
     background-color: #8badbe;
     position: relative;
-    /* border-radius: 6px; */
     text-align: left;
     border-top: 2px solid #6f1c1f;
     border-bottom: 2px solid #6f1c1f;
@@ -419,7 +375,7 @@ body {
 
 .timeline--content h3 {
     margin-top: 0px;
-    font-size: 1.8em; /* 2.2 */
+    font-size: 1.8em;
     color: #fdfdfd;
 }
 
@@ -528,29 +484,21 @@ footer {
         left: 50%;
     }
 
-    /* Container around content */
     .timeline--entry {
         padding: 10px 40px;
         width: 50%;
     }
 
-    /* The circles on the timeline */
     .timeline--entry::after {
         top: 37px;
     }
 
-    /* Place the container to the left */
-    .timeline--left {
-        left: 0;
-    }
-
-    /* Place the container to the right */
     .timeline--right {
         left: 50%;
     }
 
-    /* Add arrows to the left container (pointing right) */
-    .timeline--entry::before {
+    .timeline--left::before {
+        top: 42px;
         left: auto;
         right: 30px;
         border: medium solid #8badbe;
@@ -558,44 +506,21 @@ footer {
         border-color: transparent transparent transparent #8badbe;
     }
 
-    /* Add arrows to the right container (pointing left) */
     .timeline--right::before {
-        content: " ";
-        height: 0;
-        position: absolute;
         top: 42px;
-        width: 0;
-        z-index: 1;
         left: 30px;
-        border: medium solid #8badbe;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #8badbe transparent transparent;
     }
 
-    /* Fix the circle for containers on the right side */
     .timeline--right::after {
         left: -16px;
     }
 
-    /* Fix the circle for containers on the left side */
     .timeline--left::after {
         left: auto;
     }
 
-    /* The actual content */
-    .timeline--content {
-        padding: 20px 30px 20px 30px;
-        background-color: #8badbe;
-        position: relative;
-        /* border-radius: 6px; */
-        text-align: left;
-        border-top: 2px solid #6f1c1f;
-        border-bottom: 2px solid #6f1c1f;
-    }
-
-    .timeline--border-right {
-        border-radius: 0px 50px 50px 0px;
-        border-right: 2px solid #6f1c1f;
+    .timeline--content h3 {
+        font-size: 2.2em;
     }
 
     .timeline--border-left {
