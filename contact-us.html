@@ -73,34 +73,46 @@
                     <hr class="block--divider">
                     <div class="contact--form text-left">
                         <form>
-                            <div class="form-group">
-                                <label for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <div class="div material--group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" class="form-control material--input" id="firstName" placeholder="" required>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="div material--group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" class="form-control material--input" id="lastName" placeholder="" required>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <div class="div material--group">
+                                        <label for="emailAddress">Email address</label>
+                                        <input type="email" class="form-control material--input" id="emailAddress" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="teamMembers">Team member(s) you think you require</label>
+                                    <select multiple class="form-control" id="teamMembers">
+                                    <option value="IM">Iron Man</option>
+                                    <option value="CA">Captain America</option>
+                                    <option value="BW">Black Widow</option>
+                                    <option value="HU">Hulk</option>
+                                    <option value="HA">Hawkeye</option>
+                                    <option value="TH">Thor</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="whyYouNeedUs">Why you need to hire us?</label>
+                                    <textarea class="form-control" id="whyYouNeedUs" rows="4"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="lastName">First Name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>                            
                             </div>
-                            <div class="form-group">
-                                <label for="emailAddress">Email address</label>
-                                <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="teamMembers">Team member(s) you think you require</label>
-                                <select multiple class="form-control" id="teamMembers">
-                                <option value="IM">Iron Man</option>
-                                <option value="CA">Captain America</option>
-                                <option value="BW">Black Widow</option>
-                                <option value="HU">Hulk</option>
-                                <option value="HA">Hawkeye</option>
-                                <option value="TH">Thor</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="whyYouNeedUs">Why you need to hire us?</label>
-                                <textarea class="form-control" id="whyYouNeedUs" rows="4"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
                 </section>
