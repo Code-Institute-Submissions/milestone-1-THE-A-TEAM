@@ -421,11 +421,6 @@ body {
     padding-left: 4px;
 }
 
-.custom-checkbox label {
-    color: #4b1214;
-    font-weight: 600;
-}
-
 .material--input:focus {
     color: #495057;
     border-bottom: 3px solid #55afdc;
@@ -463,6 +458,11 @@ body {
     border: 2px solid #6f1c1f;
     font-size: 1.4em;
     font-style: italic;
+}
+
+.custom-checkbox label {
+    color: #4b1214;
+    font-weight: 600;
 }
 
 /* checkbox styles below with help from 'knetsi' on Stackoverflow */
@@ -514,6 +514,7 @@ body {
 
 /* style below with help from 'MCBL' on Stackoverflow */
 input:-webkit-autofill, input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px white inset;
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
