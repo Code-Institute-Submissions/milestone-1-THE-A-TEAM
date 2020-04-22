@@ -394,7 +394,7 @@ body {
 
 .contact--form {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 }
 
 .material--group {
@@ -410,12 +410,17 @@ body {
     padding-left: 12px;
 }
 
-label {
+.material--group label, .checkbox--header {
     margin: 0;
     color: #0f7bb2;
     font-weight: 600;
     font-size: 1em;
     padding-left: 4px;
+}
+
+.custom-checkbox label {
+    color: #4b1214;
+    font-weight: 600;
 }
 
 .material--input:focus {
@@ -426,6 +431,45 @@ label {
     outline: 2px;
 }
 
+.custom-checkbox {
+    padding-left: 2.5em;
+}
+
+.custom-control-label:before{
+    background-color:lightblue;
+    border-radius: 0px;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#265c77;
+}
+
+.custom-control-input:active~.custom-control-label::before{
+    background-color: transparent;
+}
+
+/** focus shadow pinkish **/
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 0, 247, 0.25); 
+}
+
+.custom-control-label::before ,.custom-control-label::after { 
+    width:24px; 
+    height:24px;
+}
+
+.label--team {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
 
 /* ------------------------------------------------------------ Footer */
 
