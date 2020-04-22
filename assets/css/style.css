@@ -395,7 +395,7 @@ body {
 .contact--form {
     margin: 0 auto;
     padding: 24px;
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     background-color: #8badbe;
 }
@@ -601,7 +601,7 @@ footer {
     }
 
     /* ----------------------------------------- Timeline */
-
+    
     .timeline::after {
         left: 50%;
     }
@@ -650,4 +650,11 @@ footer {
         border-left: 2px solid #6f1c1f;
         border-right: 0px;
     }
+
+/* --------------------------------------- Contact us */
+
+    .contact--form {
+        width: 75%;
+    }
+
 }
