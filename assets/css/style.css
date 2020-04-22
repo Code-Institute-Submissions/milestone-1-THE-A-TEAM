@@ -394,7 +394,7 @@ body {
 
 .contact--form {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 .material--group {
@@ -431,13 +431,22 @@ body {
     outline: 2px;
 }
 
+.material--group textarea {
+    height: 80px;
+}
+
+.label--team {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+/* checkbox styles below with help from 'knetsi' on Stackoverflow */
 .custom-checkbox {
     padding-left: 2.5em;
 }
 
 .custom-control-label:before{
     background-color:lightblue;
-    border-radius: 0px;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
@@ -448,9 +457,8 @@ body {
     background-color: transparent;
 }
 
-/** focus shadow pinkish **/
 .custom-checkbox .custom-control-input:focus~.custom-control-label::before{
-    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 0, 247, 0.25); 
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #bfa1a2;
 }
 
 .custom-control-label::before ,.custom-control-label::after { 
@@ -458,16 +466,12 @@ body {
     height:24px;
 }
 
-.label--team {
-    padding-top: 4px;
-    padding-left: 6px;
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0rem;
 }
 
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
-}
-
-input:-webkit-autofill:focus {
+/* style below with help from 'MCBL' on Stackoverflow */
+input:-webkit-autofill, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
