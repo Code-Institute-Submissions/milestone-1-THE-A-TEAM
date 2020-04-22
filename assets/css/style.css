@@ -476,15 +476,16 @@ body {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
     background-color:#265c77;
+    border-color: red;
 }
 
 .custom-control-input:active~.custom-control-label::before{
     background-color: transparent;
 }
 
-.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
-    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #bfa1a2;
-}
+/* .custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #a1b0bf;
+} */
 
 .custom-control-label::before ,.custom-control-label::after { 
     width:24px; 
@@ -493,6 +494,17 @@ body {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0rem;
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #55afdc;
+    border-width: 2px;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 /* style below with help from 'MCBL' on Stackoverflow */
