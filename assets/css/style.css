@@ -440,6 +440,28 @@ body {
     padding-left: 6px;
 }
 
+.btn--send {
+    border-radius: 1em;
+    background-color: #4b1214;
+    color: #fff;
+    border: 2px solid #4b1214;
+    font-size: 1.4em;
+    font-style: italic;
+    transition: background-color 0.25s ease-in-out;
+    -moz-transition: background-color 0.25s ease-in-out;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    -o-transition: background-color 0.25s ease-in-out;
+}
+
+.btn--send:hover {
+    border-radius: 1em;
+    background-color: #6f1c1f;
+    color: #fff;
+    border: 2px solid #6f1c1f;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
 /* checkbox styles below with help from 'knetsi' on Stackoverflow */
 .custom-checkbox {
     padding-left: 2.5em;
