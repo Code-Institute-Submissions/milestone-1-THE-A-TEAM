@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
     <script src="https://kit.fontawesome.com/6cfdba21b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The A-Team - Contact Us</title>
@@ -75,23 +76,57 @@
                         <form>
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <div class="div material--group">
+                                    <div class="material--group">
                                         <label for="firstName">First Name</label>
-                                        <input type="text" class="form-control material--input" id="firstName" placeholder="" required>
+                                        <input type="text" class="form-control material--input" name="firstName" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <div class="div material--group">
+                                    <div class="material--group">
                                         <label for="lastName">Last Name</label>
-                                        <input type="text" class="form-control material--input" id="lastName" placeholder="" required>
+                                        <input type="text" class="form-control material--input" name="lastName" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-12">
-                                    <div class="div material--group">
+                                    <div class="material--group">
                                         <label for="emailAddress">Email address</label>
-                                        <input type="email" class="form-control material--input" id="emailAddress" placeholder="name@example.com" required>
+                                        <input type="email" class="form-control material--input" name="emailAddress" placeholder="name@example.com" required>
                                     </div>
                                 </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="ironmanSwitch" name="teamMembers">
+                                    <label class="custom-control-label" for="ironmanSwitch">Iron Man</label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="IM">Iron Man
+                                    </label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="CA">Captain America
+                                    </label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="BW">Black Widow
+                                    </label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="HU">Hulk
+                                    </label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="HA">Hawkeye
+                                    </label>
+                                </div>                                
+                                <div class="form-check col-md-4">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" name="teamMembers" value="TH">Thor
+                                    </label>
+                                </div>                                
                                 <div class="form-group col-12">
                                     <label for="teamMembers">Team member(s) you think you require</label>
                                     <select multiple class="form-control" id="teamMembers">
@@ -104,8 +139,10 @@
                                     </select>
                                 </div>
                                 <div class="form-group col-12">
-                                    <label for="whyYouNeedUs">Why you need to hire us?</label>
-                                    <textarea class="form-control" id="whyYouNeedUs" rows="4"></textarea>
+                                    <div class="material--group">
+                                        <label for="whyYouNeedUs">Why do you need to hire us?</label>
+                                        <textarea class="form-control material--input" id="whyYouNeedUs" rows="3"></textarea>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -157,6 +194,10 @@
     </footer>
 
 </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </html>

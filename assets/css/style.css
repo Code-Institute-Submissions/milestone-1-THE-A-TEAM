@@ -412,18 +412,20 @@ body {
 
 label {
     margin: 0;
-    color: rgb(110, 108, 108);
+    color: #0f7bb2;
+    font-weight: 600;
     font-size: 1em;
     padding-left: 4px;
 }
 
 .material--input:focus {
     color: #495057;
-    border-bottom: 3px solid #80bdff;
+    border-bottom: 3px solid #55afdc;
     box-shadow: 0px 0px;
     background-color: transparent;
     outline: 2px;
 }
+
 
 /* ------------------------------------------------------------ Footer */
 
