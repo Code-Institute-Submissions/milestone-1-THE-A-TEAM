@@ -394,7 +394,10 @@ body {
 
 .contact--form {
     margin: 0 auto;
+    padding: 24px;
     width: 80%;
+    border-radius: 5px;
+    background-color: #8badbe;
 }
 
 .material--group {
@@ -412,7 +415,7 @@ body {
 
 .material--group label, .checkbox--header {
     margin: 0;
-    color: #0f7bb2;
+    color: #183949;
     font-weight: 600;
     font-size: 1em;
     padding-left: 4px;
@@ -468,7 +471,7 @@ body {
 }
 
 .custom-control-label:before{
-    background-color:lightblue;
+    background-color:#fff;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
