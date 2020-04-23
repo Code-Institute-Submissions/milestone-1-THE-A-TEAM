@@ -159,7 +159,7 @@ body {
 .page--heading h2 {
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-style: italic;
     color: #265c77;
     text-shadow: 1px 1px #fff;
@@ -167,7 +167,8 @@ body {
 }
 
 .page--heading p {
-    margin-bottom: .5em;  
+    margin-bottom: .5em;
+    font-size: .9em;
 }
 
 /* --------------------------------------------------- How can we help */
@@ -614,7 +615,11 @@ footer {
     /* ---------------------- Containers and Page Headings */
 
     .page--heading h2 {
-        font-size: 2.5em;
+        font-size: 3.5em;
+    }
+
+    .page--heading p {
+        font-size: 1.2em;
     }
 
     .fullpage--container {
