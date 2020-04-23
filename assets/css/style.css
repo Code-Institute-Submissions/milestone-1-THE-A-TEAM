@@ -410,9 +410,9 @@ body {
 
 .contact--form {
     margin: 0 auto;
-    padding: 26px 26px 45px 26px;
+    padding: 16px 16px 35px 16px;
     width: 90%;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #8badbe;
 }
 
@@ -688,6 +688,7 @@ footer {
 
     .contact--form {
         width: 75%;
+        padding: 26px 26px 45px 26px;
     }
 
 }
