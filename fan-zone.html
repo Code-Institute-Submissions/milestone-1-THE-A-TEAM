@@ -108,8 +108,11 @@
                             </div>
                             
                             <div class="modal-body">
-                                <p>Captain America will review your upload and place it in our fan zone. &nbsp;Thank you
-                                <br><br>small form below - fan email - browse folder - send <br><br>
+                                <p>Captain America will review your upload and place it in our fan zone. &nbsp;Thank you</p>
+                                <div class="custom-file mb-3">
+                                    <input type="file" class="custom-file-input" id="fanImageFile" name="filename">
+                                    <label class="custom-file-label" for="fanImageFile">Choose file</label>
+                                </div>
                                 <small>Please note:<br>photos must include you, any art must be your own work.</small>
                             </div>
                             
@@ -165,4 +168,13 @@
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+    // ------------------ Added from W3Schools file upload snippet
+        $(".custom-file-input").on("change", function() {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>    
+
 </html>
