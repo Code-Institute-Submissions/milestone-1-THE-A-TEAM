@@ -114,6 +114,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    opacity: 0.8;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -228,9 +229,13 @@ body {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
     background-color: grey;
-    background-image: radial-gradient(white 10%, lightblue 20%, black 82%);
+    background-image: radial-gradient(white 10%, lightblue 32%, black 82%);
     color: black;
     border-radius: 14px;
+}
+
+.flip-card-front img {
+    opacity: 0.9;
 }
 
 /* Style the back side */
