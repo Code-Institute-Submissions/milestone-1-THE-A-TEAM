@@ -414,6 +414,9 @@ body {
     width: 90%;
     border-radius: 4px;
     background-color: #8badbe;
+    border: 2px solid #4b1214;
+    border-radius: 30px;
+    padding: 50px 50px 55px 50px;    
 }
 
 .material--group {
