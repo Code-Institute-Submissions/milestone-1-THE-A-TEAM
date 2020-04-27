@@ -134,7 +134,7 @@ body {
 /* ---------------------------------------------------------- Jumbotron */
 
 .jumbotron {
-    background-color: rgba(38, 101, 130, 0.8);
+    background-color: rgba(3, 37, 53, 0.8);
     /* background-color: rgba(100, 25, 25, 0.7); previous color only delete when happy*/
     border-radius: 5px;
     padding: 1.5em;
