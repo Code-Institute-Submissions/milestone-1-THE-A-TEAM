@@ -397,6 +397,22 @@ body {
     border-left: 0px;
 }
 
+.timeline--media {
+    width: 80%;
+}
+
+.timeline--photo {
+    width: 80%;
+    height: 80%;
+    border: 0px solid #fff;
+}
+
+.timeline--video {
+    width: 80%;
+    height: 80%;
+    border: 0px solid #fff;
+}
+
 /* ---------------------------------------------------------- Fan zone */
 
 #fan--wall {
