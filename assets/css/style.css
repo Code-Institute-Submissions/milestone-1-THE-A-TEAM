@@ -235,10 +235,6 @@ body {
     border-radius: 14px;
 }
 
-.flip-card-front img {
-    opacity: 0.9;
-}
-
 /* Style the back side */
 .flip-card-back {
     background-color: #3e4d54;
