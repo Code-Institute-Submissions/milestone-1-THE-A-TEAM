@@ -633,43 +633,15 @@ footer {
     /* ----------------------------------------- Navigation */
 
     .nav-link {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .nav--item-width {
-        width: 5em;
+        width: 4em;
     }
 
     .nav--icon  {
         font-size: 1.2em;
-    }
-
-    .logo--height {
-        height: 100px;
-    }
-
-    /* ----------------------------------------- Jumbotron */
-
-    .jumbotron h1 {
-        font-size: 2em;
-    }
-
-    .jumbotron h2 {
-        font-size: 1.5em;
-    }
-
-    /* ---------------------- Containers and Page Headings */
-
-    .page--heading h2 {
-        font-size: 3.5em;
-    }
-
-    .page--heading p {
-        font-size: 1.2em;
-    }
-
-    .fullpage--container {
-        margin-top: 139px;
     }
 
     /* ----------------------------------------- Timeline */
@@ -721,6 +693,61 @@ footer {
         border-radius: 50px 0px 0px 50px;
         border-left: 2px solid #6f1c1f;
         border-right: 0px;
+    }
+
+/* ----------------------------------------- Fan zone */
+
+    #fan--wall {
+        column-count: 3;
+    }
+
+    /* ---------------------- Containers and Page Headings */
+
+    .fullpage--container {
+        margin-top: 139px;
+    }
+
+}
+
+/* larger screens above 1024px width */
+@media only screen and (min-width: 1024px) {
+
+    /* ----------------------------------------- Navigation */
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    .nav--item-width {
+        width: 5em;
+    }
+
+    .nav--icon  {
+        font-size: 1.2em;
+    }
+
+    .logo--height {
+        height: 100px;
+    }
+
+    /* ----------------------------------------- Jumbotron */
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .jumbotron h2 {
+        font-size: 1.5em;
+    }
+
+    /* ---------------------- Containers and Page Headings */
+
+    .page--heading h2 {
+        font-size: 3.5em;
+    }
+
+    .page--heading p {
+        font-size: 1.2em;
     }
 
 /* ----------------------------------------- Fan zone */
