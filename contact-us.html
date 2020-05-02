@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+        <!-- logo and navigation -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar--custom">
             <a class="navbar-brand" href="index.html"><img src="assets/images/a-team_logo.png" class="logo--height" alt="The A-Team logo" title="The A-Team logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,82 +65,86 @@
         </nav>
     </header>
 
+    <!-- main content for contact-us page -->
     <main class="container-fluid fullpage--container content--container">
         <section>
+            <!-- contact us heading -->
             <div class="row no-gutters">
                 <div class="col-12 text-center page--heading">
                     <h2>CONTACT US</h2>
                     <p class="page--sub-text">Need our help, get in touch using the form below</p>
                     <hr class="block--divider">
                 </div>
-                <div class="row no-gutters px-3">
-                    <div class="contact--form text-left">
-                        <form>
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <div class="material--group">
-                                        <label for="first_name">First Name</label>
-                                        <input type="text" class="form-control material--input" name="first_name" placeholder="" required>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <div class="material--group">
-                                        <label for="last_name">Last Name</label>
-                                        <input type="text" class="form-control material--input" name="last_name" placeholder="" required>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12">
-                                    <div class="material--group">
-                                        <label for="email_address">Email address</label>
-                                        <input type="email" class="form-control material--input" name="email_address" placeholder="name@example.com" required>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <p class="checkbox--header">Tick the team member(s) you think you require</p>
-                                </div>
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="ironman_chk" name="team_members[]" value="IM">
-                                    <label class="custom-control-label label--team" for="ironman_chk">Iron Man</label>
-                                </div>                                
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="captain_america_chk" name="team_members[]" value="CA">
-                                    <label class="custom-control-label label--team" for="captain_america_chk">Captain America</label>
-                                </div>                                
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="black_widow_chk" name="team_members[]" value="BW">
-                                    <label class="custom-control-label label--team" for="black_widow_chk">Black Widow</label>
-                                </div>                                
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="hulk_chk" name="team_members[]" value="HU">
-                                    <label class="custom-control-label label--team" for="hulk_chk">Hulk</label>
-                                </div>                                
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="hawkeye_chk" name="team_members[]" value="HA">
-                                    <label class="custom-control-label label--team" for="hawkeye_chk">Hawkeye</label>
-                                </div>                                
-                                <div class="form-group custom-control custom-checkbox col-md-4">
-                                    <input type="checkbox" class="custom-control-input" id="thor_chk" name="team_members[]" value="TH">
-                                    <label class="custom-control-label label--team" for="thor_chk">Thor</label>
-                                </div>                                
-                                <div class="form-group col-12 pt-2">
-                                    <div class="material--group">
-                                        <label for="why_you_need_us">Why do you need to hire us?</label>
-                                        <textarea class="form-control material--input" id="why_you_need_us" name="why_you_need_us" rows="3" placeholder="Alien horde is invading our city..." required></textarea>
-                                    </div>
+            </div>
+            <!-- contact us form -->
+            <div class="row no-gutters px-3">
+                <div class="col-12">
+                    <form class="contact--form text-left">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <div class="material--group">
+                                    <label for="first_name">First Name</label>
+                                    <input type="text" class="form-control material--input" name="first_name" placeholder="" required>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 text-center pt-3">
-                                    <button type="submit" class="btn btn-lg btn--send ">Get Help</button>
-                                </div>                            
+                            <div class="form-group col-md-6">
+                                <div class="material--group">
+                                    <label for="last_name">Last Name</label>
+                                    <input type="text" class="form-control material--input" name="last_name" placeholder="" required>
+                                </div>
                             </div>
-                        </form>
-                    </div>
+                            <div class="form-group col-12">
+                                <div class="material--group">
+                                    <label for="email_address">Email address</label>
+                                    <input type="email" class="form-control material--input" name="email_address" placeholder="name@example.com" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p class="checkbox--header">Tick the team member(s) you think you require</p>
+                            </div>
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="ironman_chk" name="team_members[]" value="IM">
+                                <label class="custom-control-label label--team" for="ironman_chk">Iron Man</label>
+                            </div>                                
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="captain_america_chk" name="team_members[]" value="CA">
+                                <label class="custom-control-label label--team" for="captain_america_chk">Captain America</label>
+                            </div>                                
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="black_widow_chk" name="team_members[]" value="BW">
+                                <label class="custom-control-label label--team" for="black_widow_chk">Black Widow</label>
+                            </div>                                
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="hulk_chk" name="team_members[]" value="HU">
+                                <label class="custom-control-label label--team" for="hulk_chk">Hulk</label>
+                            </div>                                
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="hawkeye_chk" name="team_members[]" value="HA">
+                                <label class="custom-control-label label--team" for="hawkeye_chk">Hawkeye</label>
+                            </div>                                
+                            <div class="form-group custom-control custom-checkbox col-md-4">
+                                <input type="checkbox" class="custom-control-input" id="thor_chk" name="team_members[]" value="TH">
+                                <label class="custom-control-label label--team" for="thor_chk">Thor</label>
+                            </div>                                
+                            <div class="form-group col-12 pt-2">
+                                <div class="material--group">
+                                    <label for="why_you_need_us">Why do you need to hire us?</label>
+                                    <textarea class="form-control material--input" id="why_you_need_us" name="why_you_need_us" rows="3" placeholder="Alien horde is invading our city..." required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center pt-3">
+                                <button type="submit" class="btn btn-lg btn--send ">Get Help</button>
+                            </div>                            
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- footer content -->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-6 footer--panel">
