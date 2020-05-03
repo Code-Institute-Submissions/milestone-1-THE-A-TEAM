@@ -494,12 +494,10 @@ body {
 
 .contact--form {
     margin: 0 auto;
-    /* padding: 16px 16px 35px 16px; */
+    padding: 22px 22px 26px 22px;
     width: 90%;
-    /* border-radius: 4px; */
     background-color: #8badbe;
     border-radius: 30px;
-    padding: 50px 50px 55px 50px;    
 }
 
 .material--group {
@@ -748,6 +746,13 @@ footer {
         margin-top: 139px;
     }
 
+/* --------------------------------------- Contact us */
+
+    .contact--form {
+        width: 80%;
+        padding: 32px 32px 48px 32px;
+    }
+
 }
 
 /* larger screens above 1024px width */
@@ -795,13 +800,6 @@ footer {
 
     #fan--wall {
         column-count: 4;
-    }
-
-/* --------------------------------------- Contact us */
-
-    .contact--form {
-        width: 75%;
-        padding: 26px 26px 45px 26px;
     }
 
 }
