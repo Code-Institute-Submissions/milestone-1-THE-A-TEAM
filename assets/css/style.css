@@ -490,6 +490,13 @@ body {
     border-color: #568593;
 }
 
+/* -- override bootstrap default -- */
+.modal-dialog {
+    max-width: 340px;
+    margin: 1.75rem auto;
+    padding: 0;
+}
+
 /* -------------------------------------------------------- Contact us */
 
 .contact--form {
@@ -734,10 +741,15 @@ footer {
         border-right: 0px;
     }
 
-/* ----------------------------------------- Fan zone */
+    /* ----------------------------------------- Fan zone */
 
     #fan--wall {
         column-count: 3;
+    }
+    
+    /* -- reset bootstrap default -- */
+    .modal-dialog {
+        max-width: 500px;
     }
 
     /* ---------------------- Containers and Page Headings */
