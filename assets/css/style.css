@@ -237,7 +237,7 @@ body {
 
 /* -----------Flip card code/style adapted from tutorial on W3-Schools */
 
-/* Do an horizontal flip when you click a card */
+/* Do the horizontal flip when you click a card */
 #flip--card-ironman.flipped, #flip--card-captain.flipped, #flip--card-widow.flipped,
 #flip--card-hulk.flipped, #flip--card-hawkeye.flipped, #flip--card-thor.flipped {
   transform: rotateY(180deg);
@@ -502,7 +502,7 @@ body {
 
 /* -- override bootstrap default -- */
 .modal-dialog {
-    max-width: 340px;
+    max-width: 320px;
     margin: 1.75rem auto;
     padding: 0;
 }
