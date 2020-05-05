@@ -79,28 +79,33 @@ found the use of italic and normal gives the impression of using two fonts witho
 All the site pages have a responsive navigation bar with team logo on the top-left.
 At the bottom of all site pages is the footer which gives the main address information and the social media links.
 
-[Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html)
+[Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html) 
+
 The Home page has an hero-image to create impact when you first arrive on the site.
 Within the hero image is a call to action statement to prompt a potential client to get in touch.
 After the hero-image are two sections, the first to inform potential clients how The A-Team can help and the second to give some testimonials.
 
 Responsive info here when bits ready
 
-[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/the-team.html)
+[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/the-team.html) 
+
 The Team page gives a brief history of the team, and shows information about each team member.
 On desktops this shows in three columns, tablets two columns and one column on mobiles.
 
-[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/our-news.html)
+[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/our-news.html) 
+
 The News page shows recent team news stories with a photo or video.
 On desktop & tablet these stories show either side of a news line, on mobiles they are just on one side of the news line.
 
-[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fan-zone.html)
+[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fan-zone.html) 
+
 The Fan Zone page simply shows photos and artwork which has been sent in by The A-Team fans.
 On desktop and tablets these images display in four columns, on mobiles they display in two columns.
 
 Below these images is a button which allows fans to send in their images to be displayed here after review.
 
-[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact-us.html)
+[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact-us.html) 
+
 The Contact Us page displays a contact form which requests the client to enter:
 First name, Last name, Email address, Select team member(s) they think they need and also to enter a short reason why they need the team’s help.
 
@@ -116,6 +121,38 @@ At the bottom of the form is a ‘Get Help’ button to send the form.
 For testing information please use the following link [TESTING.md](https://devtoguk.github.io/milestone-1-THE-A-TEAM/TESTING.md)
 
 ## Deployment
+The live project was deployed using GitHub Pages, this was done using the procedure below:
+
+- Login to GitHub.
+- Navigated to the projects repository “milestone-1-THE-A-TEAM”
+- Click Settings under the repository name.
+- Scroll down to the “GitHub Pages” section.
+- Under Source choose ‘master branch’.
+
+The Source section will now read.
+“ Your GitHub Pages site is currently being built from the master branch. ”
+
+When the site is deployed and ready to access, it will then read.
+“ Your site is published at https://devtoguk.github.io/milestone-1-THE-A-TEAM/ ”
+
+The live site can now be accessed using the link below:
+https://devtoguk.github.io/milestone-1-THE-A-TEAM/
+
+
+If you wish to work on / run this project locally then use the cloning procedure below:
+
+- Login to GitHub.
+- Navigated to the projects repository “milestone-1-THE-A-TEAM”
+- Click Clone or Download under the repository name.
+- To clone the repository using HTTPS, under “Clone with HTTPS”, click the [copy to clipboard] icon next to the URL field.
+- Open Git Bash on your local IDE.
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type ‘git clone’ and then paste the URL from the step above.
+    git clone https://github.com/username/repository
+- Press Enter. Your clone will now be created.
+
+For more information and roubleshooting on cloning a repository from GitHub click here.
+
 
 ## Credits
 
@@ -144,15 +181,6 @@ supported
 unordered or ordered list
 supported)
 
-
-1. Item 1
-2. Item 2
-3. Item 3
- * Item 3a
- * Item 3b
-
-## H2
-### H3
 
 **bold text**
 
