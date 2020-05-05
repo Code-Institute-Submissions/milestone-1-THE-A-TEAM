@@ -19,9 +19,64 @@ are up to.
 
 ## UX
 
+### Ideal Business Client is:
+* English speaking
+* Has a problem to solve
+* Lives anywhere in the world
+
+### Ideal Fan is:
+* English speaking
+* Looking for facts about the team.
+* Interested in showing off their fan photo or artwork. 
+
+### How will this website help The A-Team
+* They don’t currently have a website.
+* Navigation is simple, thus helping any potential client find what information they require.
+* The information is well presented, and targets the client towards contacting The A-Team via the contact form.
+* Fans can interact with the team on a basic level.
+
 ## User Stories
+1. Potential client:
+    1. I need to be able to easily navigate the site to find what I need.
+    2. I want to find out how the team could help me.
+    3. I would like to know what abilities the team have.
+    4. I want to see what other missions the team has done.
+    5.  I would like to read what others have said about your services.
+    6.  I wish to follow you on social media.
+2. An interested client:
+    1. I am interested in finding out more about how you can help me, how do I contact you?
+3. For a fan of the A-Team:
+    1. I need to be able to easily navigate the site to find what I need.
+    2. I would like to find out more info & news about the team.
+    3. I want to send a photo or artwork to you.
+    4. I wish to follow you on social media.
+
+text
+
+* number
+  1. one
+  2. two
+  3. three
+
+- number
+  1. one
+  2. two
+  3. three
+
++ number
+  1. one
+  2. two
+  3. three
+
+  
+
 
 ## Wireframe Designs
+Home
+The Team
+Our News
+Fan Zone
+Contact Us
 
 ## Surface
 
