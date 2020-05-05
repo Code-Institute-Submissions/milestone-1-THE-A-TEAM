@@ -88,24 +88,24 @@ the contact us page and the second to give some cliebt testimonials.
 
 Responsive info here...
 
-[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/the-team.html) 
+[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/team.html) 
 
 The Team page gives a brief history of the team, and shows information about each team member.
 On desktops this shows in three columns, tablets two columns and one column on mobiles.
 
-[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/our-news.html) 
+[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/news.html) 
 
 The News page shows recent team news stories with a photo or video.
 On desktop & tablet these stories show either side of a news line, on mobiles they are just on one side of the news line.
 
-[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fan-zone.html) 
+[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fanzone.html) 
 
 The Fan Zone page simply shows photos and artwork which has been sent in by The A-Team fans.
 On desktop and tablets these images display in four columns, on mobiles they display in two columns.
 
 Below these images is a button which allows fans to send in their images to be displayed here after review.
 
-[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact-us.html) 
+[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact.html) 
 
 The Contact Us page displays a contact form which requests the client to enter:
 First name, Last name, Email address, Select team member(s) they think they need and also to enter a short reason why they need the team’s help.
