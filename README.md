@@ -76,23 +76,44 @@ found the use of italic and normal gives the impression of using two fonts witho
 - Youtube - hosts the news video.
 
 ## Features
+All the site pages have a responsive navigation bar with team logo on the top-left.
+At the bottom of all site pages is the footer which gives the main address information and the social media links.
 
-### Existing Features
+[Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html)
+The Home page has an hero-image to create impact when you first arrive on the site.
+Within the hero image is a call to action statement to prompt a potential client to get in touch.
+After the hero-image are two sections, the first to inform potential clients how The A-Team can help and the second to give some testimonials.
 
-### Future Features
+Responsive info here when bits ready
+
+[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/the-team.html)
+The Team page gives a brief history of the team, and shows information about each team member.
+On desktops this shows in three columns, tablets two columns and one column on mobiles.
+
+[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/our-news.html)
+The News page shows recent team news stories with a photo or video.
+On desktop & tablet these stories show either side of a news line, on mobiles they are just on one side of the news line.
+
+[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fan-zone.html)
+The Fan Zone page simply shows photos and artwork which has been sent in by The A-Team fans.
+On desktop and tablets these images display in four columns, on mobiles they display in two columns.
+
+Below these images is a button which allows fans to send in their images to be displayed here after review.
+
+[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact-us.html)
+The Contact Us page displays a contact form which requests the client to enter:
+First name, Last name, Email address, Select team member(s) they think they need and also to enter a short reason why they need the team’s help.
+
+At the bottom of the form is a ‘Get Help’ button to send the form.
+
+## Future Features
+- Add more detail to news stories, once clicked on they open up to show the bigger storyline and maybe extra images.
+- Add more profile cards as new team members join The A-Team.
+- Enhance the fan zone, maybe add in a merchandise section.
+
 
 ## Testing
-
-### Testing User Stories
-
-### Testing Elements and Functionality (manual tests)
-These were done for all site pages
-
-### Extra Testing
-
-### Issues and Resolutions
-
-### Known Issues
+For testing information please use the following link [TESTING.md](https://devtoguk.github.io/milestone-1-THE-A-TEAM/TESTING.md)
 
 ## Deployment
 
