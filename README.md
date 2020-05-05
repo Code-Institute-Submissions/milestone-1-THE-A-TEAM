@@ -37,19 +37,19 @@ are up to.
 
 ## User Stories
 ### 1. Potential client:
-    1. I need to be able to easily navigate the site to find what I need.
-    2. I want to find out how the team could help me.
-    3. I would like to know what abilities the team have.
-    4. I want to see what other missions the team has done.
-    5.  I would like to read what others have said about your services.
-    6.  I wish to follow you on social media.
+1. I need to be able to easily navigate the site to find what I need.
+2. I want to find out how the team could help me.
+3. I would like to know what abilities the team have.
+4. I want to see what other missions the team has done.
+5. I would like to read what others have said about your services.
+6. I wish to follow you on social media.
 ### 2. An interested client:
-    1. I am interested in finding out more about how you can help me, how do I contact you?
+1. I am interested in finding out more about how you can help me, how do I contact you?
 ### 3. For a fan of the A-Team:
-    1. I need to be able to easily navigate the site to find what I need.
-    2. I would like to find out more info & news about the team.
-    3. I want to send a photo or artwork to you.
-    4. I wish to follow you on social media.
+1. I need to be able to easily navigate the site to find what I need.
+2. I would like to find out more info & news about the team.
+3. I want to send a photo or artwork to you.
+4. I wish to follow you on social media.
 
 
 ## Wireframe Designs
@@ -60,6 +60,11 @@ Fan Zone
 Contact Us
 
 ## Surface
+The “petrol blue” and “dark maroon” colours were chosen from the Home page hero-image key characters and used 
+throughout the site to create a consistent feel, but always having an eye on contrast so elements are easy to read.
+
+Decided on the Googlefont “Play” as when made italic it blends very nicely to the logo. Also at the same time I 
+found the use of italic and normal gives the impression of using two fonts without having to download a second.
 
 ## Technologies Used
 
