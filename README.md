@@ -153,7 +153,7 @@ If you wish to work on / run this project locally then use the cloning procedure
 ```
 - Press Enter. Your clone will now be created.
 
-For more information and roubleshooting on cloning a repository from GitHub click here.
+For more information and roubleshooting on cloning a repository from GitHub click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Credits
