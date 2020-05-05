@@ -138,7 +138,7 @@ When the site is deployed and ready to access, it will then read.
 The live site can now be accessed using the link below:  
 https://devtoguk.github.io/milestone-1-THE-A-TEAM/
 
-
+### Running this project locally
 If you wish to work on / run this project locally then use the cloning procedure below:
 
 - Login to GitHub.
@@ -153,10 +153,38 @@ If you wish to work on / run this project locally then use the cloning procedure
 ```
 - Press Enter. Your clone will now be created.
 
-For more information and roubleshooting on cloning a repository from GitHub click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
+For more information and troubleshooting on cloning a repository from GitHub click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
+### Text content
+Apart from character names all text content has been written by R.Thompson and proof read by E. Thompson 
+All character names remain the property of their respective owners.
+
+### Logo
+The logo image was adapted from the Marvel Avengers logo using Adobe Photoshop.  
+(this was only done as this is an educational project)
+
+### Photos
+All the photos have been downloaded from Google images.
+These images remain the property of their respective copyright owners.
+(if this was not an educational project, permission would have been sought before using any images)
+
+Some images have been enhanced or combined to create the effect required.
+- Flip-card team images: outer-glow added to the PNG file.
+- Covid-19 news image made up from three separate images Earth, Hulk & virus images layered in Adobe Photoshop.
+
+### Videos
+The Iron Man news video is hosted on YouTube and remains the property of it’s respective copyright owner.
+(if this was not an educational project, permission would have been sought before using any videos)
+
+### Code
+The CSS/HTML for the flip-cards on the Team page was adapted from a tutorial on W3-schools.  https://www.w3schools.com/howto/howto_css_flip_card.asp
+
+The CSS/HTML for the timeline on the Our News page was adapted from a tutorial on W3-schools. https://www.w3schools.com/howto/howto_css_timeline.asp
+
+Thanks to the Stackoverflow (https://stackoverflow.com/) community for helping solve some CSS problems.
+Changing the appearance of an auto-filled field set by the browser.
+How to change the styling on the Bootstrap custom-checkboxes.
 
 ### content
 
