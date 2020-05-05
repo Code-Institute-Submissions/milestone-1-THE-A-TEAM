@@ -68,15 +68,15 @@ found the use of italic and normal gives the impression of using two fonts witho
 
 ## Technologies Used
 - HTML and CSS programming languages.
-- Bootstrap v4.4.1 - used to help with grid layout and responsive design.
-- jQuery - responsive Bootstrap navbar, fill in form value on file selection.
-- FontAwesome - for the site icons.
-- GitPod - online IDE used to create this project.
-- Google Fonts - for the website font 'Play'.
-- Youtube - hosts the news video.
+- [Bootstrap v4.4.1](https://getbootstrap.com/) - used to help with grid layout and responsive design.
+- [jQuery](https://jquery.com/) - responsive Bootstrap navbar, fill in form value on file selection.
+- [FontAwesome](https://fontawesome.com/) - for the site icons.
+- [GitPod](https://www.gitpod.io/) - online IDE used to create this project.
+- [Google Fonts](https://fonts.google.com/) - for the website font 'Play'.
+- [Youtube](https://www.youtube.com/) - hosts the news video.
 
 ## Features
-All the site pages have a responsive navigation bar with team logo on the top-left, this nav-bar is fixed at the top of the page.
+All the site pages have a responsive navigation bar with team logo on the top-left, this nav-bar is fixed at the top of the page.  
 At the bottom of all site pages is the footer which gives the main address information and the social media links.
 
 [Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html) 
