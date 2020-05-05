@@ -135,7 +135,7 @@ The Source section will now read.
 When the site is deployed and ready to access, it will then read.
 “ Your site is published at https://devtoguk.github.io/milestone-1-THE-A-TEAM/ ”
 
-The live site can now be accessed using the link below: 
+The live site can now be accessed using the link below:  
 https://devtoguk.github.io/milestone-1-THE-A-TEAM/
 
 
