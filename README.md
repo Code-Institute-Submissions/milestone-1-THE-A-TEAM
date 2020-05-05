@@ -54,16 +54,10 @@ are up to.
 
 
 ## Wireframe Designs
-[Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/index.png)  
 
-[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/the-team.png)  
+Click the link below to view a PDF file containing all the wireframe designs for Desktop, Tablet & Mobile.  
 
-[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/our-news.png)  
-
-[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/fan-zone.png)  
-
-[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/contact-us.png)  
-
+[Wireframe PDF](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/pdf/wireframes.pdf)  
 
 ## Surface
 The “petrol blue” and “dark maroon” colours were chosen from the Home page hero-image key characters and used 
