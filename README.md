@@ -1,6 +1,7 @@
 # The A-Team
 
-The A-Team is a band of mercenary superheros who have many years experience of saving individuals, cities and even the world.  They now hire out their services to anyone who needs help.
+The A-Team is a band of mercenary superheros who have many years experience of saving individuals, cities and even the world. 
+They now hire out their services to anyone who needs help.
 
 The live deployed site can be accessed using the following link: [The A-Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/)
 
@@ -76,16 +77,17 @@ found the use of italic and normal gives the impression of using two fonts witho
 - Youtube - hosts the news video.
 
 ## Features
-All the site pages have a responsive navigation bar with team logo on the top-left.
+All the site pages have a responsive navigation bar with team logo on the top-left, this nav-bar is fixed at the top of the page.
 At the bottom of all site pages is the footer which gives the main address information and the social media links.
 
 [Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html) 
 
 The Home page has an hero-image to create impact when you first arrive on the site.
 Within the hero image is a call to action statement to prompt a potential client to get in touch.
-After the hero-image are two sections, the first to inform potential clients how The A-Team can help and the second to give some testimonials.
+After the hero-image are two sections, the first to inform potential clients how The A-Team can help including a button to link to
+the contact us page and the second to give some cliebt testimonials.
 
-Responsive info here when bits ready
+Responsive info here...
 
 [The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/the-team.html) 
 
@@ -115,7 +117,6 @@ At the bottom of the form is a ‘Get Help’ button to send the form.
 - Add more detail to news stories, once clicked on they open up to show the bigger storyline and maybe extra images.
 - Add more profile cards as new team members join The A-Team.
 - Enhance the fan zone, maybe add in a merchandise section.
-
 
 ## Testing
 For testing information please use the following link [TESTING.md](https://devtoguk.github.io/milestone-1-THE-A-TEAM/TESTING.md)
@@ -191,8 +192,7 @@ Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping s
 
 Inspiration for this project came from:
 Remembering the 80’s TV show **The A-Team**, about a band of mercenaries, whom, if you could find them, then you could 
-hire them to solve your problem. Taking that core idea and merging it with Marvels Avengers.
-
+hire them to solve your problem. Taking that core idea and merging it with some of the characters from Marvel's Avengers.
 
 ## Disclaimer
 The content of this website is solely for educational purposes.
