@@ -13,27 +13,27 @@ If time permits the A-Team would also like a small fan section to showcase what 
 are up to.
  
 ## Customer Goals
-* Searching for someone to help them with their problem.
-* Easy to find the information they may require to make an informed decision.
-* Simple to contact the A-Team.
+- Searching for someone to help them with their problem.
+- Easy to find the information they may require to make an informed decision.
+- Simple to contact the A-Team.
 
 ## UX
 
 ### Ideal Business Client is:
-* English speaking
-* Has a problem to solve
-* Lives anywhere in the world
+- English speaking
+- Has a problem to solve
+- Lives anywhere in the world
 
 ### Ideal Fan is:
-* English speaking
-* Looking for facts about the team.
-* Interested in showing off their fan photo or artwork. 
+- English speaking
+- Looking for facts about the team.
+- Interested in showing off their fan photo or artwork. 
 
 ### How will this website help The A-Team
-* They don’t currently have a website.
-* Navigation is simple, thus helping any potential client find what information they require.
-* The information is well presented, and targets the client towards contacting The A-Team via the contact form.
-* Fans can interact with the team on a basic level.
+- They don’t currently have a website.
+- Navigation is simple, thus helping any potential client find what information they require.
+- The information is well presented, and targets the client towards contacting The A-Team via the contact form.
+- Fans can interact with the team on a basic level.
 
 ## User Stories
 ### 1. Potential client:
@@ -135,7 +135,7 @@ The Source section will now read.
 When the site is deployed and ready to access, it will then read.
 “ Your site is published at https://devtoguk.github.io/milestone-1-THE-A-TEAM/ ”
 
-The live site can now be accessed using the link below:
+The live site can now be accessed using the link below: 
 https://devtoguk.github.io/milestone-1-THE-A-TEAM/
 
 
@@ -148,7 +148,9 @@ If you wish to work on / run this project locally then use the cloning procedure
 - Open Git Bash on your local IDE.
 - Change the current working directory to the location where you want the cloned directory to be made.
 - Type ‘git clone’ and then paste the URL from the step above.
+```
     git clone https://github.com/username/repository
+```
 - Press Enter. Your clone will now be created.
 
 For more information and roubleshooting on cloning a repository from GitHub click here.
