@@ -67,6 +67,13 @@ Decided on the Googlefont “Play” as when made italic it blends very nicely t
 found the use of italic and normal gives the impression of using two fonts without having to download a second.
 
 ## Technologies Used
+- HTML and CSS programming languages.
+- Bootstrap v4.4.1 - used to help with grid layout and responsive design.
+- jQuery - responsive Bootstrap navbar, fill in form value on file selection.
+- FontAwesome - for the site icons.
+- GitPod - online IDE used to create this project.
+- Google Fonts - for the website font 'Play'.
+- Youtube - hosts the news video.
 
 ## Features
 
