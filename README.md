@@ -53,11 +53,11 @@ are up to.
 
 
 ## Wireframe Designs
-Home
-The Team
-Our News
-Fan Zone
-Contact Us
+[Home](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/index.png) 
+[The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/the-team.png) 
+[Our News](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/our-news.png) 
+[Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/fan-zone.png) 
+[Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/wireframes/contact-us.png) 
 
 ## Surface
 The “petrol blue” and “dark maroon” colours were chosen from the Home page hero-image key characters and used 
@@ -156,6 +156,7 @@ If you wish to work on / run this project locally then use the cloning procedure
 For more information and troubleshooting on cloning a repository from GitHub click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
+
 ### Text content
 Apart from character names all text content has been written by R.Thompson and proof read by E. Thompson 
 All character names remain the property of their respective owners.
@@ -182,18 +183,14 @@ The CSS/HTML for the flip-cards on the Team page was adapted from a tutorial on 
 
 The CSS/HTML for the timeline on the Our News page was adapted from a tutorial on W3-schools. https://www.w3schools.com/howto/howto_css_timeline.asp
 
-Thanks to the Stackoverflow (https://stackoverflow.com/) community for helping solve some CSS problems.
-Changing the appearance of an auto-filled field set by the browser.
-How to change the styling on the Bootstrap custom-checkboxes.
-
-### content
-
-### Media
+Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping solve some CSS problems. 
+- Changing the appearance of an auto-filled field set by the browser.
+- How to change the styling on the Bootstrap custom-checkboxes.
 
 ## Acknowledgments
 
 Inspiration for this project came from:
-Remembering the 80’s TV show The A-Team, about a band of mercenaries, whom, if you could find them, then you could 
+Remembering the 80’s TV show **The A-Team**, about a band of mercenaries, whom, if you could find them, then you could 
 hire them to solve your problem. Taking that core idea and merging it with Marvels Avengers.
 
 
