@@ -57,7 +57,7 @@ are up to.
 
 Click the link below to view a PDF file containing all the wireframe designs for Desktop, Tablet & Mobile.  
 
-[Wireframe PDF](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/pdf/wireframes.pdf)  
+[Wireframe PDF](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/images/pdf/wireframes.pdf)  
 
 ## Surface
 The “petrol blue” and “dark maroon” colours were chosen from the Home page hero-image key characters and used 
