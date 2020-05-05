@@ -109,7 +109,7 @@ body {
 .callout--container {
     position: relative;
     height: 85vh;
-    background-image: url('../images/a-team_back.jpg');
+    background-image: url('../images/a_team_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
