@@ -768,7 +768,7 @@ footer {
     /* ---------------------- Containers and Page Headings */
 
     .fullpage--container {
-        margin-top: 139px;
+        margin-top: 98px; /* was 139px */
     }
 
 /* --------------------------------------- Contact us */
