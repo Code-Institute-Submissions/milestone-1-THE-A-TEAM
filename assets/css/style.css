@@ -46,6 +46,7 @@ body {
 }
 
 .navbar--toggler-text {
+    display: block;
     font-size: .5em;
     margin-bottom: 4px;
 }
