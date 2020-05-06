@@ -310,6 +310,42 @@ body {
     height: 398px;
 }
 
+.flip--card-prompt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 264px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+.flip--card-prompt-i {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 264px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
 .progress {
         background-color: #67757b;
 }
