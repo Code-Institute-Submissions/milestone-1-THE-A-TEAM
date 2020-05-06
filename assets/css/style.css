@@ -15,9 +15,9 @@ body {
 
 .navbar--custom {
     background-color: #4b1214;
-    border-bottom: 2px solid #350c0e;
-    border-top: 1px solid #4b1214;
-    padding: 4px;
+    /* border-bottom: 2px solid #350c0e;
+    border-top: 1px solid #4b1214; */
+    padding: 0px; /* was 4px */
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -30,8 +30,9 @@ body {
 }
 
 .nav-link p {
-    margin-bottom: 4px;
-    margin-top: 8px;
+    margin-bottom: 0px; /* was 4px */
+    margin-top: 4px; /* was 8px */
+    line-height: 1.2;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -109,7 +110,7 @@ body {
 
 .callout--container {
     position: relative;
-    height: 85vh;
+    height: 100vh;
     background-image: url('../images/a_team_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
