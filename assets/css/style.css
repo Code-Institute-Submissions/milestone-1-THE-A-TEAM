@@ -167,7 +167,7 @@ body {
     font-size: 2.5em;
     font-style: italic;
     color: #265c77;
-    margin-top: 50px;    
+    margin-top: 30px;    
 }
 
 .page--heading p {
@@ -813,6 +813,12 @@ footer {
         margin-top: 98px; /* was 139px */
     }
 
+    .page--heading h2 {
+        font-size: 3.5em;
+        margin-top: 50px;
+    }
+
+
 /* --------------------------------------- Contact us */
 
     .contact--form {
@@ -854,10 +860,6 @@ footer {
     }
 
     /* ---------------------- Containers and Page Headings */
-
-    .page--heading h2 {
-        font-size: 3.5em;
-    }
 
     .page--heading p {
         font-size: 1.2em;
