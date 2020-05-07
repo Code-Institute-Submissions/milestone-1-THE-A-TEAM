@@ -133,14 +133,14 @@ body {
     /* clear: both;     */
 }
 
-/* ---------------------------------------------------------- Jumbotron */
+/* ---------------------------------------------------------- Home page */
 
 .jumbotron {
     background-color: rgba(3, 37, 53, 0.8);
     /* background-color: rgba(100, 25, 25, 0.7); previous color only delete when happy*/
     border-radius: 5px;
     padding: 1.5em;
-    margin-bottom: 3.5em;
+    margin-bottom: 16px; /* was 3.5em */
     border: 1px solid #97ddf5;
 }
 
@@ -154,6 +154,14 @@ body {
     color: white;
     font-weight: bold;
     font-size: 1.25em;
+}
+
+.down--arrow {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: -1px 0  #97ddf5, 0 1px  #97ddf5, 1px 0  #97ddf5, 0 -1px  #97ddf5;
 }
 
 /* ----------------------------------------------------- Page Headings */
