@@ -109,37 +109,11 @@ body {
 /* --------------------------------------------------------- Containers */
 
 .callout--container {
-    /* position: relative;
-    height: 100vh;
-    background-image: url('../images/a_team_back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    opacity: 0.8;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center; */
     position: relative;
     height: 100vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
-
-.hero--image {
-    position: fixed;
-    top: 50px;
-    left: 0;
-    z-index: -2;
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/a_team_back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* display: flex; */
-    opacity: 0.8;
 }
 
 .content--container {
@@ -154,6 +128,20 @@ body {
 }
 
 /* ---------------------------------------------------------- Home page */
+
+.hero--image {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/a_team_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
 
 .jumbotron {
     background-color: rgba(3, 37, 53, 0.8);
@@ -181,7 +169,6 @@ body {
     color: #fafafa; /* was rgba(3, 37, 53, 0.8); */
     text-align: center;
     margin-bottom: 46px;
-    /* text-shadow: -1px 0  #97ddf5, 0 1px  #97ddf5, 1px 0  #97ddf5, 0 -1px  #97ddf5; */
 }
 
 /* ----------------------------------------------------- Page Headings */
