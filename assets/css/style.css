@@ -158,10 +158,10 @@ body {
 
 .down--arrow {
     font-size: 2em;
-    color: rgba(3, 37, 53, 0.8);
+    color: #fafafa; /* was rgba(3, 37, 53, 0.8); */
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: -1px 0  #97ddf5, 0 1px  #97ddf5, 1px 0  #97ddf5, 0 -1px  #97ddf5;
+    /* text-shadow: -1px 0  #97ddf5, 0 1px  #97ddf5, 1px 0  #97ddf5, 0 -1px  #97ddf5; */
 }
 
 /* ----------------------------------------------------- Page Headings */
@@ -822,7 +822,7 @@ footer {
 /* ---------------------------------------- Home page */
 
     .down--arrow {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
 }
