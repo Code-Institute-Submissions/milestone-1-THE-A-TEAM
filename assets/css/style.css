@@ -465,7 +465,7 @@ body {
 /* The actual content */
 .timeline--content {
     padding: 20px 30px;
-    background-color: #8badbe;
+    background-color: #8fb7cb; /* was #8badbe */
     position: relative;
     text-align: left;
     /* border-top: 2px solid #6f1c1f;
@@ -558,7 +558,7 @@ body {
     margin: 0 auto;
     padding: 22px 22px 26px 22px;
     width: 90%;
-    background-color: #8badbe;
+    background-color: #8fb7cb;
     border-radius: 30px;
 }
 
