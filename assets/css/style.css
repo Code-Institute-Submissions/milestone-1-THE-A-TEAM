@@ -818,6 +818,10 @@ footer {
         margin-top: 50px;
     }
 
+    #news--subtext, #contact--subtext {
+        text-align: center;
+    }
+    
 
 /* --------------------------------------- Contact us */
 
