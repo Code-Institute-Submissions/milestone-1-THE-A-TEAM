@@ -145,28 +145,25 @@ body {
 
 .jumbotron {
     background-color: rgba(3, 37, 53, 0.8);
-    /* background-color: rgba(100, 25, 25, 0.7); previous color only delete when happy*/
     border-radius: 5px;
     padding: 1.5em;
-    margin-bottom: 16px; /* was 3.5em */
+    margin-bottom: 16px;
     border: 1px solid #97ddf5;
+    color: #fff;
 }
 
 .jumbotron h1 {
-    color: white;
     font-weight: bold;
     font-size: 1.55em;
 }
 
 .jumbotron h2 {
-    color: white;
-    font-weight: bold;
     font-size: 1.25em;
 }
 
 .down--arrow {
     font-size: 2em;
-    color: #fafafa; /* was rgba(3, 37, 53, 0.8); */
+    color: #fff;
     text-align: center;
     margin-bottom: 46px;
 }
