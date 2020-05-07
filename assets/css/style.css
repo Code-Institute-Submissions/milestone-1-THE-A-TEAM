@@ -238,6 +238,11 @@ body {
 .team--content {
 }
 
+.team--click-text {
+    font-weight: bold;
+    color: #265c77;
+}
+
 /* -----------Flip card code/style adapted from tutorial on W3-Schools */
 
 /* Do the horizontal flip when you click a card */
@@ -318,9 +323,9 @@ body {
     left: 264px;
     background-color: transparent;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.6em; /* 0.8em */
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1;  /* 1.2 */
     text-align: center;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
