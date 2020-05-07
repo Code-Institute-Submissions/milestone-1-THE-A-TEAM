@@ -442,9 +442,9 @@ body {
     width: 0;
     z-index: 1;
     left: 60px;
-    border: medium solid #8badbe;
+    border: medium solid #8fb7cb;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #8badbe transparent transparent;
+    border-color: transparent #8fb7cb transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -758,9 +758,9 @@ footer {
         top: 42px;
         left: auto;
         right: 30px;
-        border: medium solid #8badbe;
+        border: medium solid #8fb7cb;
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent #8badbe;
+        border-color: transparent transparent transparent #8fb7cb;
     }
 
     .timeline--right::before {
