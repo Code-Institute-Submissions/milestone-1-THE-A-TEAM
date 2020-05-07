@@ -173,6 +173,7 @@ body {
 .page--heading p {
     margin-bottom: .5em;
     font-size: 1em;
+    text-align: justify;
     padding: 0 40px;
 }
 
