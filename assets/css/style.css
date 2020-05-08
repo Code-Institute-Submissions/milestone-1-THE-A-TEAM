@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Play', sans-serif;
 }
 
@@ -269,6 +268,10 @@ body {
 
 #testimonials--subtext {
     text-align: center;
+}
+
+.testimonials--quotes {
+    font-size: 2em;
 }
 
 /* ---------------------------------------------------------- The Team */
