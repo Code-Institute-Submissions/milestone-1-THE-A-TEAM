@@ -253,7 +253,7 @@ body {
 
 .testimonial--content {
     background-color: #fff;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     padding: 20px 40px;
     line-height: 1.6;
     font-size: 1.2em;
