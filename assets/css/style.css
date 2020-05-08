@@ -272,11 +272,16 @@ body {
     text-align: center;
 }
 
+.testimonials--quotes::first-letter {
+    font-family: 'Catamaran', sans-serif; 
+    font-size: 1.4em;
+}
+
 .testimonials--quotes::before {
     content: "\"";
     position: absolute;
     top: -24px;
-    left: -24px;
+    left: -28px;
     font-family: 'Catamaran', sans-serif; 
     font-size: 3em;
     font-style: italic;
@@ -287,11 +292,15 @@ body {
     content: "\"";
     position: absolute;
     bottom: auto;
-    right: 0;
+    right: -11px;
     font-family: 'Catamaran', sans-serif; 
     font-size: 3em;
     font-style: italic;
     color: #265c77;
+}
+
+.mb--custom-98 {
+    margin-bottom: 98px;
 }
 
 /* ---------------------------------------------------------- The Team */
