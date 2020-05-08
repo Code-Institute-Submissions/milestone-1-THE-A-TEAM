@@ -278,7 +278,6 @@ body {
 }
 
 .testimonials--quotes::before, .testimonials--quotes::after {
-    content: "\"";
     position: absolute;
     top: -24px;
     left: -28px;
@@ -288,7 +287,12 @@ body {
     color: #265c77;
 }
 
+.testimonials--quotes::before {
+    content: "\201C";
+}
+
 .testimonials--quotes::after {
+    content: "\201D";
     top : auto;
     left: auto;
     bottom: auto;
