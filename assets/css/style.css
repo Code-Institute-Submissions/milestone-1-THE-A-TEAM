@@ -267,6 +267,10 @@ body {
     padding-right: 15px;
 }
 
+#testimonials--subtext {
+    text-align: center;
+}
+
 /* ---------------------------------------------------------- The Team */
 
 .team--content {
@@ -833,7 +837,7 @@ footer {
         margin-top: 50px;
     }
 
-    #news--subtext, #contact--subtext, #testimonials--subtext {
+    #news--subtext, #contact--subtext {
         text-align: center;
     }
     
