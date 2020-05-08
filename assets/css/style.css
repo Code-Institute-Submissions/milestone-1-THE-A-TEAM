@@ -752,7 +752,9 @@ footer {
     margin-bottom: 3px;
 }
 
-.social--links li a i {
+.social--links li a i,
+.social--links li a i:focus,
+.social--links li a i:active {
     margin: 0;
     width: 40px;
     height: 40px;
