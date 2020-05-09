@@ -425,7 +425,7 @@ body {
 .category--label {
     margin-left: 20px;
     color: #fafafa;
-    padding: 0px;
+    padding: 0 0 0 20px;
     margin: 0px;
     margin-top: 15px;
     font-size: 1.1em;
