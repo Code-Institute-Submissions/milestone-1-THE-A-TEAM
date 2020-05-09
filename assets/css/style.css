@@ -254,7 +254,7 @@ body {
     background-color: #fff;
     padding: 20px 40px;
     line-height: 1.6;
-    font-size: 1.2em;
+    font-size: 1em;
     font-style: italic;
 }
 
@@ -262,7 +262,6 @@ body {
     float: left;
     border-radius: 50%;
     padding: 0;
-    padding-right: 15px;
 }
 
 #testimonials--subtext {
@@ -270,8 +269,8 @@ body {
 }
 
 .testimonials--quotes::first-letter {
-    font-family: 'Catamaran', sans-serif; 
     font-size: 1.4em;
+    line-height: 1;
 }
 
 .testimonials--quotes::before, .testimonials--quotes::after {
