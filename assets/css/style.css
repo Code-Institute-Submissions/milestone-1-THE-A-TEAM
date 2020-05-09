@@ -885,7 +885,7 @@ footer {
 /* ------------------------------------- Testimonials */
 
     .testimonial--image {
-        max-width: 80px;
+        max-width: 60%;
         height: auto;
     }
 
@@ -939,7 +939,7 @@ footer {
 /* ------------------------------------- Testimonials */
 
     .testimonial--image {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
