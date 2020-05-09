@@ -276,7 +276,7 @@ body {
 .testimonials--quotes::before, .testimonials--quotes::after {
     position: absolute;
     top: -24px;
-    left: -28px;
+    left: -24px;  /* was 28px */
     font-family: 'Catamaran', sans-serif; 
     font-size: 3em;
     font-style: italic;
@@ -292,7 +292,7 @@ body {
     top : auto;
     left: auto;
     bottom: auto;
-    right: -11px;
+    /* right: -11px; */
 }
 
 .mb--custom-98 {
