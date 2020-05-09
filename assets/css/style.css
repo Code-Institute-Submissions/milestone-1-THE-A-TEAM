@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Catamaran&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap'); */
-
 body {
     font-family: 'Play', sans-serif;
 }
@@ -16,9 +14,7 @@ body {
 
 .navbar--custom {
     background-color: #4b1214;
-    /* border-bottom: 2px solid #350c0e;
-    border-top: 1px solid #4b1214; */
-    padding: 0px; /* was 4px */
+    padding: 0px;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -31,8 +27,8 @@ body {
 }
 
 .nav-link p {
-    margin-bottom: 0px; /* was 4px */
-    margin-top: 4px; /* was 8px */
+    margin-bottom: 0px;
+    margin-top: 4px;
     line-height: 1.2;
 }
 
@@ -125,7 +121,6 @@ body {
     margin-top: 91px;
     padding: 0;
     padding-bottom: 64px;
-    /* clear: both;     */
 }
 
 /* ---------------------------------------------------------- Home page */
@@ -200,7 +195,6 @@ body {
 .how--help {
     padding: 0 40px 0 40px;
     text-align: center;
-    /* margin-top: 40px; */
     margin-bottom: 50px;
 }
 
@@ -254,7 +248,6 @@ body {
 
 .testimonial--content {
     background-color: #fff;
-    /* margin-bottom: 30px; */
     padding: 20px 40px;
     line-height: 1.6;
     font-size: 1.2em;
@@ -393,9 +386,9 @@ body {
     left: 266px;
     background-color: transparent;
     color: #fafafa;
-    font-size: 0.6em; /* 0.8em */
+    font-size: 0.6em;
     font-weight: bold;
-    line-height: 1;  /* 1.2 */
+    line-height: 1;
     text-align: center;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
@@ -516,11 +509,9 @@ body {
 /* The actual content */
 .timeline--content {
     padding: 20px 30px;
-    background-color: #8fb7cb; /* was #8badbe */
+    background-color: #8fb7cb;
     position: relative;
     text-align: left;
-    /* border-top: 2px solid #6f1c1f;
-    border-bottom: 2px solid #6f1c1f; */
 }
 
 .timeline--content h3 {
@@ -531,13 +522,10 @@ body {
 
 .timeline--border-right {
     border-radius: 0px 50px 50px 0px;
-    /* border-right: 2px solid #6f1c1f; */
 }
 
 .timeline--border-left {
     border-radius: 0px 50px 50px 0px;
-    /* border-right: 2px solid #6f1c1f;
-    border-left: 0px; */
 }
 
 .timeline--media {
@@ -563,7 +551,6 @@ body {
     line-height: 0;
     column-count: 2;
     column-gap: 0px;
-    /* padding: 0px; */
 }
 
 #fan--wall img {
@@ -695,10 +682,6 @@ body {
 .custom-control-input:active~.custom-control-label::before{
     background-color: transparent;
 }
-
-/* .custom-checkbox .custom-control-input:focus~.custom-control-label::before{
-    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #a1b0bf;
-} */
 
 .custom-control-label::before ,.custom-control-label::after { 
     width:24px; 
@@ -845,8 +828,6 @@ footer {
 
     .timeline--border-left {
         border-radius: 50px 0px 0px 50px;
-        /* border-left: 2px solid #6f1c1f;
-        border-right: 0px; */
     }
 
     /* ----------------------------------------- Fan zone */
@@ -863,7 +844,7 @@ footer {
     /* ---------------------- Containers and Page Headings */
 
     .fullpage--container {
-        margin-top: 98px; /* was 139px */
+        margin-top: 98px;
     }
 
     .page--heading h2 {
