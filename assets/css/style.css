@@ -259,7 +259,7 @@ body {
 }
 
 .testimonial--image {
-    float: left;
+    float: right;
     border-radius: 50%;
     padding: 0;
 }
@@ -882,6 +882,13 @@ footer {
         font-size: 3em;
     }
 
+/* ------------------------------------- Testimonials */
+
+    .testimonial--image {
+        max-width: 80px;
+        height: auto;
+    }
+
 }
 
 /* larger screens above 1024px width */
@@ -927,6 +934,13 @@ footer {
         -webkit-column-count: 4;
            -moz-column-count: 4;
                 column-count: 4;
+    }
+
+/* ------------------------------------- Testimonials */
+
+    .testimonial--image {
+        max-width: 100%;
+        height: auto;
     }
 
 }
