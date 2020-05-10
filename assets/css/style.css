@@ -22,7 +22,7 @@ body {
 .nav-link {
     font-family: 'Play', sans-serif;
     font-style: italic;
-    font-size: 1em;
+    /* font-size: 1em; */
     text-align: center;
 }
 
@@ -377,8 +377,8 @@ body {
 }
 
 .flip-card-back h2 {
-    margin: 8px 0 10px;
-    padding: 0px;
+    margin: 16px 0 10px;
+    /* padding: 0px; */
     color: white;
     text-align: center;
 }
@@ -422,12 +422,12 @@ body {
 }
 
 .category--label {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     color: #fafafa;
     padding: 0 0 0 20px;
-    margin: 0px;
+    /* margin: 0px; */
     margin-top: 15px;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 .progressbar--text {
@@ -780,10 +780,10 @@ footer {
 
     /* ----------------------------------------- Navigation */
 
-    .nav-link {
+    /* .nav-link {
         font-size: 1em;
     }
-
+ */
     .nav--item-width {
         width: 4em;
     }
@@ -896,9 +896,9 @@ footer {
 
     /* ----------------------------------------- Navigation */
 
-    .nav-link {
+    /* .nav-link {
         font-size: 1.2em;
-    }
+    } */
 
     .nav--item-width {
         width: 5em;
@@ -908,9 +908,9 @@ footer {
         font-size: 1.2em;
     }
 
-    .logo--height {
+    /* .logo--height {
         height: 100px;
-    }
+    } */
 
     /* ----------------------------------------- Jumbotron */
 
@@ -920,12 +920,6 @@ footer {
 
     .jumbotron h2 {
         font-size: 1.5em;
-    }
-
-    /* ---------------------- Containers and Page Headings */
-
-    .page--heading p {
-        font-size: 1.2em;
     }
 
 /* ----------------------------------------- Fan zone */
