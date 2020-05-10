@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 body {
     font-family: 'Play', sans-serif;
@@ -32,13 +32,14 @@ body {
     line-height: 1.2;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-}
-
+.navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #fff;
 }
+/* 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+} */
 
 .navbar-nav {
 }
@@ -276,8 +277,8 @@ body {
 .testimonials--quotes::before, .testimonials--quotes::after {
     position: absolute;
     top: -24px;
-    left: -24px;  /* was 28px */
-    font-family: 'Catamaran', sans-serif; 
+    left: -24px;
+    font-family: sans-serif; 
     font-size: 3em;
     font-style: italic;
     color: #265c77;
@@ -292,7 +293,6 @@ body {
     top : auto;
     left: auto;
     bottom: auto;
-    /* right: -11px; */
 }
 
 .mb--custom-98 {
