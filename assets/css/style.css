@@ -4,14 +4,12 @@ body {
     font-family: 'Play', sans-serif;
 }
 
-/* ------------------------------------------------------------ Colors */
-
+/* -------------------------------- Colors */
 .bg--speed {
     background-color: #9354db;
 }
 
-/* -------------------------------------------------------- Navigation */
-
+/* ---------------------------- Navigation */
 .navbar--custom {
     background-color: #4b1214;
     padding: 0px;
@@ -22,7 +20,6 @@ body {
 .nav-link {
     font-family: 'Play', sans-serif;
     font-style: italic;
-    /* font-size: 1em; */
     text-align: center;
 }
 
@@ -36,10 +33,6 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #fff;
 }
-/* 
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff;
-} */
 
 .navbar-nav {
 }
@@ -91,8 +84,7 @@ body {
     height: 70px;
 }
 
-/* ----------------------------------------------------- Block dividers */
-
+/* ------------------------ Block dividers */
 .block--divider {
     width: 10%;
     height: 2px;
@@ -102,8 +94,7 @@ body {
     margin-bottom: 35px;
 }
 
-/* --------------------------------------------------------- Containers */
-
+/* ---------------------------- Containers */
 .callout--container {
     position: relative;
     height: 100vh;
@@ -128,8 +119,7 @@ body {
     padding-bottom: 64px;
 }
 
-/* ---------------------------------------------------------- Home page */
-
+/* ----------------------------- Home page */
 .hero--image {
     position: fixed;
     top: 50px;
@@ -169,8 +159,7 @@ body {
     margin-bottom: 46px;
 }
 
-/* ----------------------------------------------------- Page Headings */
-
+/* ------------------------- Page Headings */
 .page--heading {
 }
 
@@ -184,8 +173,6 @@ body {
 }
 
 .page--heading p {
-    /* margin-bottom: .5em; */
-    /* font-size: 1em; */
     text-align: justify;
     padding: 0 40px;
 }
@@ -195,8 +182,7 @@ body {
     margin-bottom: 64px;    
 }
 
-/* --------------------------------------------------- How can we help */
-
+/* ----------------------- How can we help */
 .how--help {
     padding: 0 40px 0 40px;
     text-align: center;
@@ -238,15 +224,12 @@ body {
 }
 
 .how--help span {
-    /* display: block; */
-    /* text-align: center; */
     font-size: 1em;
     color: #6f1c1f;
     font-weight: bold;
-    /* margin-bottom: 22px; */
 }
 
-/* ------------------------------------------------------ Testimonials */
+/* -------------------------- Testimonials */
 
 .testimonials {
     width: 100%;
@@ -300,8 +283,7 @@ body {
     margin-bottom: 98px;
 }
 
-/* ---------------------------------------------------------- The Team */
-
+/* ------------------------------ The Team */
 .team--content {
 }
 
@@ -348,7 +330,6 @@ body {
             transform-style: preserve-3d;
 }
 
-
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
     position: absolute;
@@ -379,7 +360,6 @@ body {
 
 .flip-card-back h2 {
     margin: 16px 0 10px;
-    /* padding: 0px; */
     color: white;
     text-align: center;
 }
@@ -423,26 +403,19 @@ body {
 }
 
 .category--label {
-    /* margin-left: 20px; */
     color: #fafafa;
     padding: 0 0 0 20px;
-    /* margin: 0px; */
     margin-top: 15px;
-    /* font-size: 1.1em; */
 }
 
 .progressbar--text {
-    /* margin: 0px;
-    padding: 0px; */
     padding-right: 10px;
     color: #fafafa;
-    /* font-size: 1em; */
 }
 
 /* ---------------------------------------------------------- Our News */
 
 /* ------------Timeline code/style adapted from tutorial on W3-Schools */
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -472,7 +445,7 @@ body {
     background-color: inherit;
 }
 
-/* The circles on the timeline */
+/* circles on the timeline */
 .timeline--entry::after {
     content: '';
     position: absolute;
@@ -556,8 +529,7 @@ body {
     border: 0px solid #fff;
 }
 
-/* ---------------------------------------------------------- Fan zone */
-
+/* ------------------------------ Fan zone */
 #fan--wall {
     clear: both;
     line-height: 0;
@@ -599,14 +571,13 @@ body {
     border-color: #568593;
 }
 
-/* -- override bootstrap default -- */
 .modal-dialog {
     max-width: 320px;
     margin: 1.75rem auto;
     padding: 0;
 }
 
-/* -------------------------------------------------------- Contact us */
+/* ---------------------------- Contact us */
 
 .contact--form {
     margin: 0 auto;
@@ -633,7 +604,6 @@ body {
     margin: 0;
     color: #051d28;
     font-weight: 600;
-    /* font-size: 1em; */
     padding-left: 4px;
 }
 
@@ -729,8 +699,7 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
             box-shadow: 0 0 0px 1000px white inset;
 }
 
-/* ------------------------------------------------------------ Footer */
-
+/* -------------------------------- Footer */
 footer {
     background-color: #265c77;
     color: #fafafa;
@@ -775,17 +744,12 @@ footer {
     margin-top: 15px;
 }
 
-/* ---------------------------------------------------- Media Queries */
+/* ------------------------- Media Queries */
 
 /* larger screens above 768px width */
 @media only screen and (min-width: 768px) {
 
-    /* ----------------------------------------- Navigation */
-
-    /* .nav-link {
-        font-size: 1em;
-    }
- */
+    /* ------------------------ Navigation */
     .nav--item-width {
         width: 4em;
     }
@@ -794,8 +758,7 @@ footer {
         font-size: 1.2em;
     }
 
-    /* ----------------------------------------- Timeline */
-    
+    /* -------------------------- Timeline */
     .timeline::after {
         left: 50%;
     }
@@ -843,21 +806,18 @@ footer {
         border-radius: 50px 0px 0px 50px;
     }
 
-    /* ----------------------------------------- Fan zone */
-
+    /* -------------------------- Fan zone */
     #fan--wall {
         -webkit-column-count: 3;
            -moz-column-count: 3;
                 column-count: 3;
     }
     
-    /* -- reset bootstrap default -- */
     .modal-dialog {
         max-width: 500px;
     }
 
-    /* ---------------------- Containers and Page Headings */
-
+    /* ------ Containers and Page Headings */
     .fullpage--container {
         margin-top: 98px;
     }
@@ -871,37 +831,28 @@ footer {
         text-align: center;
     }
     
-/* --------------------------------------- Contact us */
-
+    /* ------------------------ Contact us */
     .contact--form {
         width: 80%;
         padding: 32px 32px 48px 32px;
     }
 
-/* ---------------------------------------- Home page */
-
+    /* ------------------------- Home page */
     .down--arrow {
         font-size: 3em;
     }
 
-/* ------------------------------------- Testimonials */
-
+    /* ---------------------- Testimonials */
     .testimonial--image {
         max-width: 60%;
         height: auto;
     }
-
 }
 
 /* larger screens above 1024px width */
 @media only screen and (min-width: 1024px) {
 
-    /* ----------------------------------------- Navigation */
-
-    /* .nav-link {
-        font-size: 1.2em;
-    } */
-
+    /* ------------------------ Navigation */
     .nav--item-width {
         width: 5em;
     }
@@ -910,12 +861,8 @@ footer {
         font-size: 1.2em;
     }
 
-    /* .logo--height {
-        height: 100px;
-    } */
-
-    /* ----------------------------------------- Jumbotron */
-
+ 
+    /* ------------------------- Jumbotron */
     .jumbotron h1 {
         font-size: 2em;
     }
@@ -924,19 +871,16 @@ footer {
         font-size: 1.5em;
     }
 
-/* ----------------------------------------- Fan zone */
-
+/* ------------------------------ Fan zone */
     #fan--wall {
         -webkit-column-count: 4;
            -moz-column-count: 4;
                 column-count: 4;
     }
 
-/* ------------------------------------- Testimonials */
-
+/* -------------------------- Testimonials */
     .testimonial--image {
         max-width: 90%;
         height: auto;
     }
-
 }
