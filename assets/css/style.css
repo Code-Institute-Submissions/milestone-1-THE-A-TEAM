@@ -11,10 +11,10 @@ body {
 
 /* ---------------------------- Navigation */
 .navbar--custom {
+    padding: 0 25px 0 25px;
     background-color: #4b1214;
-    padding: 0px;
-    padding-right: 25px;
-    padding-left: 25px;
+    /* padding-right: 25px;
+    padding-left: 25px; */
 }
 
 .nav-link {
@@ -24,8 +24,8 @@ body {
 }
 
 .nav-link p {
-    margin-bottom: 0px;
     margin-top: 4px;
+    margin-bottom: 0px;
     line-height: 1.2;
 }
 
@@ -39,8 +39,8 @@ body {
 
 .navbar--toggler-text {
     display: block;
-    font-size: .5em;
     margin-bottom: 4px;
+    font-size: .5em;
 }
 
 .navbar-toggler {
@@ -58,8 +58,8 @@ body {
 }
 
 .navbar--effect {
-    color: #fff;
     padding: 0.5em 1.2em 0.5em 1.2em;
+    color: #fff;
     -webkit-transition: background-color 0.35s ease-in-out;
     transition: background-color 0.35s ease-in-out;
 }
@@ -76,8 +76,8 @@ body {
 }
 
 .nav--icon  {
-    font-size: 1.2em;
     margin-bottom: 2px;
+    font-size: 1.2em;
 }
 
 .logo--height {
@@ -88,16 +88,15 @@ body {
 .block--divider {
     width: 10%;
     height: 2px;
-    border: 0;
-    background-color: #61181a;
     margin-top: 0px;
     margin-bottom: 35px;
+    border: 0;
+    background-color: #61181a;
 }
 
 /* ---------------------------- Containers */
 .callout--container {
     position: relative;
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -107,6 +106,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 100vh;
 }
 
 .content--container {
@@ -125,8 +125,8 @@ body {
     top: 50px;
     left: 0;
     z-index: -2;
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-image: url('../images/a_team_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,17 +135,17 @@ body {
 }
 
 .jumbotron {
-    background-color: rgba(3, 37, 53, 0.8);
-    border-radius: 5px;
-    padding: 1.5em;
     margin-bottom: 16px;
+    padding: 1.5em;
     border: 1px solid #97ddf5;
     color: #fff;
+    background-color: rgba(3, 37, 53, 0.8);
+    border-radius: 5px;
 }
 
 .jumbotron h1 {
-    font-weight: bold;
     font-size: 1.55em;
+    font-weight: bold;
 }
 
 .jumbotron h2 {
@@ -153,10 +153,10 @@ body {
 }
 
 .down--arrow {
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
     margin-bottom: 46px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
 }
 
 /* ------------------------- Page Headings */
@@ -164,68 +164,67 @@ body {
 }
 
 .page--heading h2 {
-    font-family: 'Play', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-    font-style: italic;
-    color: #265c77;
     margin-top: 30px;    
+    color: #265c77;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .page--heading p {
-    text-align: justify;
     padding: 0 40px;
+    text-align: justify;
 }
 
 .home--page-heading h2 {
-    margin-top: 64px;
-    margin-bottom: 64px;    
+    margin: 64px 0;
 }
 
 /* ----------------------- How can we help */
 .how--help {
+    margin-bottom: 50px;
     padding: 0 40px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .how--help p {
-    text-align: justify;
-    font-size: 1.2em;
-    /* margin-bottom: 0; */
     margin-top: 22px;
+    font-size: 1.2em;
+    text-align: justify;
+    /* margin-bottom: 0; */
 }
 
 .how--icon  {
-    font-size: 48px;
     padding-top: 20px;
+    font-size: 48px;
 }
 
 .how--icon-box  {
-    color: #fff;
-    background-color: #265c77;
+    position: relative;
     width: 88px;
     height: 88px;
+    margin-bottom: 26px;
+    color: #fff;
+    background-color: #265c77;
     border-radius: 50%;
     text-align: center;
-    margin-bottom: 26px;
-    position: relative;
 }
 
 .how--shield-circle  {
-    background-color: transparent;
+    position: absolute;
     top: -20px;
     left: -20px;
     width: 128px;
     height: 128px;
     border: 6px solid #6f1c1f;
+    background-color: transparent;
     border-radius: 50%;
-    position: absolute;
 }
 
 .how--help span {
-    font-size: 1em;
     color: #6f1c1f;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -236,17 +235,17 @@ body {
 }
 
 .testimonial--content {
-    background-color: #fff;
     padding: 20px 40px;
-    line-height: 1.6;
+    background-color: #fff;
     font-size: 1em;
     font-style: italic;
+    line-height: 1.6;
 }
 
 .testimonial--image {
     float: right;
-    border-radius: 50%;
     padding: 0;
+    border-radius: 50%;
 }
 
 #testimonials--subtext {
@@ -262,10 +261,10 @@ body {
     position: absolute;
     top: -24px;
     left: -24px;
+    color: #265c77;
     font-family: sans-serif; 
     font-size: 3em;
     font-style: italic;
-    color: #265c77;
 }
 
 .testimonials--quotes::before {
@@ -288,8 +287,8 @@ body {
 }
 
 .team--click-text {
-    font-weight: bold;
     color: #265c77;
+    font-weight: bold;
 }
 
 /* -----------Flip card code/style adapted from tutorial on W3-Schools */
@@ -303,16 +302,17 @@ body {
 
 /* The flip card container - set the width and height to whatever you want. */
 .flip-card {
-    background-color: transparent;
+    display: block;
     width: 324px;
     height: 398px;
+    /* margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto 50px auto;
+    background-color: transparent;
+    border-radius: 20px;
     -webkit-perspective: 1000px;
             perspective: 1000px; /* for 3D effect */
-    display: block;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -334,28 +334,28 @@ body {
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
+    overflow: hidden;
     height: 100%;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    overflow: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
+    color: black;
     background-color: grey;
     background-image: radial-gradient(white 10%, lightblue 32%, black 82%);
-    color: black;
     border-radius: 14px;
 }
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #3e4d54;
     color: grey;
+    background-color: #3e4d54;
     border-radius: 14px;
+    text-align: left;
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
-    text-align: left;
 }
 
 .flip-card-back h2 {
@@ -371,19 +371,19 @@ body {
 
 .flip--card-prompt {
     position: absolute;
-    width: 50px;
-    height: 50px;
     top: 8px;
     left: 266px;
-    background-color: transparent;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
     color: #fafafa;
+    background-color: transparent;
     font-size: 0.6em;
     font-weight: bold;
     line-height: 1;
     text-align: center;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    overflow: hidden;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
 }
@@ -397,15 +397,16 @@ body {
 }
 
 .progress--bar-custom {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
+    margin: 0 20px 8px 20px;
 }
 
 .category--label {
-    color: #fafafa;
-    padding: 0 0 0 20px;
     margin-top: 15px;
+    padding: 0 0 0 20px;
+    color: #fafafa;
 }
 
 .progressbar--text {
@@ -419,22 +420,22 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
-    background-color: #6f1c1f;
     top: 0;
     bottom: 0;
     left: 31px;
+    width: 6px;
     margin-left: -3px;
+    background-color: #6f1c1f;
 }
 
 /* Container around content */
@@ -449,17 +450,17 @@ body {
 .timeline--entry::after {
     content: '';
     position: absolute;
+    top: 44px;
+    right: -16px;
+    z-index: 1;
     width: 32px;
     height: 32px;
-    right: -16px;
     background-color: #6f1c1f;
     background-image: url("../images/shield.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 44px;
     border-radius: 50%;
-    z-index: 1;
 }
 
 /* Place the container to the left */
@@ -475,12 +476,12 @@ body {
 /* Add arrows to the right container (pointing left) */
 .timeline--right::before, .timeline--left::before {
     content: " ";
-    height: 0;
     position: absolute;
     top: 49px;
-    width: 0;
-    z-index: 1;
     left: 60px;
+    z-index: 1;
+    width: 0;
+    height: 0;
     border: medium solid #8fb7cb;
     border-width: 10px 10px 10px 0;
     border-color: transparent #8fb7cb transparent transparent;
@@ -493,16 +494,16 @@ body {
 
 /* The actual content */
 .timeline--content {
+    position: relative;
     padding: 20px 30px;
     background-color: #8fb7cb;
-    position: relative;
     text-align: left;
 }
 
 .timeline--content h3 {
     /* margin-top: 0px; */
-    font-size: 1.8em;
     color: #6f1c1f;
+    font-size: 1.8em;
 }
 
 .timeline--border-right {
@@ -547,10 +548,10 @@ body {
 }
 
 .upload--modal {
-    border-radius: 30px;
     border: 2px solid #fff;
-    background-color: #265c77;
     color: #fff;
+    background-color: #265c77;
+    border-radius: 30px;
 }
 
 .close--modal {
@@ -580,9 +581,9 @@ body {
 /* ---------------------------- Contact us */
 
 .contact--form {
+    width: 90%;
     margin: 0 auto;
     padding: 22px 22px 26px 22px;
-    width: 90%;
     background-color: #8fb7cb;
     border-radius: 30px;
 }
@@ -594,25 +595,25 @@ body {
 
 .material--input {
     padding: 0;
-    border: 0px solid transparent;
-    border-radius: 0px;
-    background-color: transparent;
     padding-left: 12px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    border-radius: 0px;
 }
 
 .material--group label, .checkbox--header {
     margin: 0;
+    padding-left: 4px;
     color: #051d28;
     font-weight: 600;
-    padding-left: 4px;
 }
 
 .material--input:focus {
     color: #495057;
+    background-color: transparent;
     border-bottom: 3px solid #55afdc;
     -webkit-box-shadow: 0px 0px;
             box-shadow: 0px 0px;
-    background-color: transparent;
     outline: 2px;
 }
 
@@ -626,11 +627,11 @@ body {
 }
 
 .btn--send {
-    border-radius: 1em;
-    background-color: #4b1214;
-    color: #fff;
-    border: 2px solid #4b1214;
     padding-top: 2px;
+    border: 2px solid #4b1214;
+    color: #fff;
+    background-color: #4b1214;
+    border-radius: 1em;
     font-size: 1.4em;
     font-style: italic;
     -webkit-transition: background-color 0.25s ease-in-out;
@@ -638,10 +639,10 @@ body {
 }
 
 .btn--send:hover {
-    border-radius: 1em;
-    background-color: #6f1c1f;
-    color: #fff;
     border: 2px solid #6f1c1f;
+    color: #fff;
+    background-color: #6f1c1f;
+    border-radius: 1em;
     font-size: 1.4em;
     font-style: italic;
 }
@@ -701,8 +702,8 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
 
 /* -------------------------------- Footer */
 footer {
-    background-color: #265c77;
     color: #fafafa;
+    background-color: #265c77;
     min-height: 120px;
     margin: 0;
     padding: 0;
@@ -722,16 +723,16 @@ footer {
 .social--links li a i,
 .social--links li a i:focus,
 .social--links li a i:active {
-    margin: 0;
     width: 40px;
     height: 40px;
+    margin: 0;
     padding: 16px 0;
+    color: #fafafa;
+    background: #1b4356;
     border-radius: 25%;
     font-size: 18px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #1b4356;
     -webkit-transition: background 0.55s ease-in-out;
     transition: background 0.55s ease-in-out;
 }
@@ -764,8 +765,8 @@ footer {
     }
 
     .timeline--entry {
-        padding: 10px 40px;
         width: 50%;
+        padding: 10px 40px;
     }
 
     .timeline--entry::after {
@@ -823,8 +824,8 @@ footer {
     }
 
     .page--heading h2 {
-        font-size: 3.5em;
         margin-top: 50px;
+        font-size: 3.5em;
     }
 
     #news--subtext, #contact--subtext {
@@ -860,7 +861,6 @@ footer {
     .nav--icon  {
         font-size: 1.2em;
     }
-
  
     /* ------------------------- Jumbotron */
     .jumbotron h1 {
