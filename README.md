@@ -119,7 +119,7 @@ At the bottom of the form is a ‘Get Help’ button to send the form.
 - Enhance the fan zone, maybe add in a merchandise section.
 
 ## Testing
-For testing information please use the following link [TESTING.md](https://devtoguk.github.io/milestone-1-THE-A-TEAM/TESTING.md)
+For testing information please use the following link [TESTING.md](/TESTING.md)
 
 ## Deployment
 The live project was deployed using GitHub Pages, this was done using the procedure below:

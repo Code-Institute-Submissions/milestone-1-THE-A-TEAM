@@ -2,7 +2,7 @@
 
 [Website deployed on GitHub Pages](https://devtoguk.github.io/milestone-1-THE-A-TEAM/index.html)  
 
-[Back to main README.md file](https://devtoguk.github.io/milestone-1-THE-A-TEAM/README.md)
+[Back to main README.md file](/README.md)
 
 ## Testing
 - [W3C - Markup Validation Service](https://validator.w3.org/) - used to check the markup validity of the HTML documents.
