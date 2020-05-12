@@ -141,8 +141,23 @@
     2. Ensure the 'Upload Fan Image' button hover effect works. 
     3. Check that the 'Upload Fan Image' button opens the upload modal window.
         1. Does the upload modal display ok on smaller screen sizes.
-        2. The upload form should check for required fields. 
-         
+        2. The upload form should check for required fields. (this was not working: missed form tags and required)
+        3. Check the hover effect on the 'Upload' and 'Close' buttons. 
+
+3. Footer 
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+### Contact Us page 
+
+1. Navigation bar 
+
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+2. Contact Us form 
+
+    1. Check that the form displays on all screen sizes.
+
+
 
 
 
