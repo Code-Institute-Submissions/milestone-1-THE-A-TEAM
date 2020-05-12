@@ -107,12 +107,45 @@
     1. Already tested in the Home page section above. (as the code is the same). 
 
 2. Team Profile Cards 
-    1. Make sure that when clicked the card transistion effect is working to see the stats and go back to the member image.
+    1. Make sure that when clicked the card transistion effect is working to see the stats and click to rotate back to the member image.
     2. Change the browser width to ensure that the 6 cards are arranged responsively depending on the screen size.
     3. Ensure that the stat information displays correctly.
-    4. Check that on smaller screens the 'CLICK TO VIEW' text appears in the top-right of each card.
+    4. Check that on smaller screens the 'CLICK TO VIEW' text appears in the top-right of each card. 
 
-5. Footer 
+3. Footer 
     1. Already tested in the Home page section above. (as the code is the same). 
+
+### Our News page 
+
+1. Navigation bar 
+
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+2. Our News
+    1. Change the browser width to ensure that the news stories display correctly. On smaller screens the news-line should
+    move to the left and all the news stories display to the right of the line. On larger screens the news stories display 
+    on alternate sides of a centered news-line. 
+
+3. Footer 
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+### Fan Zone page 
+
+1. Navigation bar 
+
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+2. Fan Zone images 
+
+    1. Check that the images display in the correct number of columns depending on screen width. 
+    2. Ensure the 'Upload Fan Image' button hover effect works. 
+    3. Check that the 'Upload Fan Image' button opens the upload modal window.
+        1. Does the upload modal display ok on smaller screen sizes.
+        2. The upload form should check for required fields. 
+         
+
+
+
+
 
 
