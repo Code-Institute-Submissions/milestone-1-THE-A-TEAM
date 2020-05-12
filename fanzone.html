@@ -113,20 +113,24 @@
                                 <h4 class="modal-title">Upload your fan photo or artwork</h4>
                                 <button type="button" class="close close--modal" data-dismiss="modal">&times;</button>
                             </div>
+
+                            <form>
                             
                             <div class="modal-body">
                                 <p>Captain America will review your upload and place it in our fan zone. &nbsp;Thank you</p>
                                 <div class="custom-file mb-3">
-                                    <input type="file" id="fan_image_file" class="custom-file-input" name="filename" required>
-                                    <label class="custom-file-label" for="fan_image_file">Choose file</label>
+                                        <input type="file" id="fan_image_file" class="custom-file-input" name="filename" accept="image/x-png,image/jpeg" required>
+                                        <label class="custom-file-label" for="fan_image_file">Choose file</label>
                                 </div>
-                                <small>Please note:&nbsp; Photos must include yourself, any art must be your own work.</small>
+                                <small class="mt-1">Please note:&nbsp; Photos must include yourself, any art must be your own work.</small>
                             </div>
                             
                             <div class="modal-footer">
-                                <button type="button" class="btn btn--modal" data-dismiss="modal">Upload</button>
+                                <button type="submit" class="btn btn--modal">Upload</button>
                                 <button type="button" class="btn btn--modal" data-dismiss="modal">Close</button>
                             </div>
+
+                            </form>
                         
                         </div>
                     </div>
