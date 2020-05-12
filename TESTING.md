@@ -11,21 +11,33 @@
 
 ## User stories testing (UX section of README.md)
 
-### 1. Potential client:
-1. I need to be able to easily navigate the site to find what I need.
+### 1. Potential client: 
+
+1. I need to be able to easily navigate the site to find what I need. 
+
     1. Whatever page a potential client lands on they are easily able to find and use the site navigation menu.
-    2. The A-Team logo on all pages also leads the client back to the Home page.
-2. I want to find out how the team could help me.
+    2. The A-Team logo on all pages also leads the client back to the Home page. 
+
+2. I want to find out how the team could help me. 
+
     1. After the call to action message on the Home page the arrows encourage the user to scroll down where they can find key information about how the A-Team can help.
     2. By choosing 'The Team' option on the navigation bar a client can see the abbilities of each member of the team.
-    3. By choosing 'Our News' option on the navigation bar a client can see news information about some previous A-Team missions.
-3. I would like to know what abilities the team have.
-    1. By choosing 'The Team' option on the navigation bar a client can see the key abbilities of each member of the team.
-4. I want to see what other missions the team has done.
-    1. By choosing 'Our News' option on the navigation bar a client can get an idea of what other missions have been completed recently.
-5. I would like to read what others have said about your services.
-    1. The Testimonials part of the Home page gives a potential client some statements from sattisfied customers.
-6. I wish to follow you on social media.
+    3. By choosing 'Our News' option on the navigation bar a client can see news information about some previous A-Team missions. 
+
+3. I would like to know what abilities the team have. 
+
+    1. By choosing 'The Team' option on the navigation bar a client can see the key abbilities of each member of the team. 
+
+4. I want to see what other missions the team has done. 
+
+    1. By choosing 'Our News' option on the navigation bar a client can get an idea of what other missions have been completed recently. 
+
+5. I would like to read what others have said about your services. 
+
+    1. The Testimonials part of the Home page gives a potential client some statements from sattisfied customers. 
+
+6. I wish to follow you on social media. 
+
     1. The footer links at the bottom of every page allow a client to go to the A-Team's social media pages and follow them.
 
 ### 2. An interested client:
