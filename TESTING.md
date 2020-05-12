@@ -58,6 +58,11 @@
 
 ## Testing elements and functionality of all site pages (manual tested)
 
+### General
+
+- Check that all titles are consistent in size.
+- Make sure that the colors of text have good contrast with their backgrounds.
+
 ### Home page 
 
 1. Navigation bar 
@@ -86,6 +91,7 @@
 4. Testimonials 
 
     1. Change the browser width to ensure that the 2 testimonials photos and statements are responsive. 
+    2. Make sure the quote-marks are in the correct place.
 
 5. Footer 
 
@@ -97,7 +103,16 @@
 ### The Team page 
 
 1. Navigation bar 
-    1. Repeat the steps from the Home page Navigation bar section above. 
-2. 
+
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+2. Team Profile Cards 
+    1. Make sure that when clicked the card transistion effect is working to see the stats and go back to the member image.
+    2. Change the browser width to ensure that the 6 cards are arranged responsively depending on the screen size.
+    3. Ensure that the stat information displays correctly.
+    4. Check that on smaller screens the 'CLICK TO VIEW' text appears in the top-right of each card.
+
+5. Footer 
+    1. Already tested in the Home page section above. (as the code is the same). 
 
 
