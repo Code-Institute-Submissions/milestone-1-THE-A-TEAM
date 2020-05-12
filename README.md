@@ -75,8 +75,10 @@ found the use of italic and normal gives the impression of using two fonts witho
 - [Bootstrap v4.4.1](https://getbootstrap.com/) - used to help with grid layout and responsive design.
 - [jQuery](https://jquery.com/) - responsive Bootstrap navbar, fill in form value on the upload file selection.
 - [FontAwesome](https://fontawesome.com/) - for the site icons.
-- [GitPod](https://www.gitpod.io/) - online IDE used to create this project.
 - [Google Fonts](https://fonts.google.com/) - for the website font 'Play'.
+- [GitPod](https://www.gitpod.io/) - online IDE used to create this project.
+- [Autoprefixer](https://autoprefixer.github.io/) - used to ensure the CSS code was valid for browsers which match (last 2 versions, > 5%)
+- [Optimizilla](https://imagecompressor.com/) - used to compress JPEG/PNG content.
 - [Youtube](https://www.youtube.com/) - hosts the news video.
 
 ## Features
