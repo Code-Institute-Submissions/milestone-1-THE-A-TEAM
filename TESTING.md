@@ -46,3 +46,30 @@
 5. I wish to follow you on social media.
     1. The footer links at the bottom of every page allow a fan to go to the A-Team's social media pages and follow them.
 
+##Testing elements and functionality of all site pages (manual tested)
+
+###Home page
+1. Navigation bar:
+    1. Ensure that alt/title text appears when hovering over the image.
+    2. When the logo is clicked confirm that it links to the Home page.
+    3. Alter the screen size to ensure that the navigation bar is responsive and displays the burger-icon dropdown menu at the 
+    correct time, also check for any navbar overflow due to the responsive changes.
+    4. Ensure that the hover transistion effects work for each navbar item.
+    5. Confirm that each navbar item when clicked links to the correct page and the background-color changes to indicate the 
+    current page.
+2. Hero-image
+    1. Make sure the hero-image is responsive as the browser width is changed.
+    (when testing on an actual Apple device the hero-image did not size correctly, so it was put in a new DIV)
+    2. Ensure the hero-image remains fixed while the content below scrolls over the top.
+    (when testing on an actual Apple device the hero-image moved, solution as above 3.1)
+3. We Can Help section
+    1. Change the browser width to ensure that the 3 icons and paragraphs arrange responsive.
+    2. Ensure the 'Get in Touch' button hover effect works. 
+    3. Check that the 'Get in Touch' button links through to the 'Contact Us' page.
+4. Testimonials
+    1. Change the browser width to ensure that the 2 testimonials photos and statements are responsive.
+5. Footer
+    1. Ensure that the hover transistion effects work for each social link.
+    2. Confirm that when clicked each social link opens a new browser window/tab.
+6. Check all the above steps on phone and tablet.
+
