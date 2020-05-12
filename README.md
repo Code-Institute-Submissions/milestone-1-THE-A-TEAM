@@ -195,7 +195,8 @@ Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping s
 
 Inspiration for this project came from:
 Remembering the 80’s TV show **The A-Team**, about a band of mercenaries, whom, if you could find them, then you could 
-hire them to solve your problem. Taking that core idea and merging it with some of the characters from Marvel's Avengers.
+hire them to solve your problem. Taking that core idea and merging it with some of the characters from Marvel's Avengers. 
+A big thank you to my mentor , the Slack communnity and many great reference sites out there including Stackoverflow and W3Schools.
 
 ## Disclaimer
 The content of this website is solely for educational purposes.
