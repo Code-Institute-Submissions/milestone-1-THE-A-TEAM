@@ -174,7 +174,7 @@
 ## Additional Testing 
 1. Asked friends and family to check the site on their phone, tablets and desktops were possible and let me know
 any issues. Got good feedback, the main changes made from this were spelling and grammar changes.
-2. I have tested the site on my desktop using Chrome & Firefox browsers. As well as testing on Android and Apple 
+2. I have tested the site on a few desktops using Chrome & Firefox browsers. As well as testing on Android and Apple 
 phones and tablets, were the main issue found was the hero-image an Apple devices which was mentioned above.
 
 
