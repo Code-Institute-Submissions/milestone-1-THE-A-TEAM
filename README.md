@@ -44,13 +44,16 @@ are up to.
 4. I want to see what other missions the team has done.
 5. I would like to read what others have said about your services.
 6. I wish to follow you on social media.
+
 ### 2. An interested client:
 1. I am interested in finding out more about how you can help me, how do I contact you?
+
 ### 3. For a fan of the A-Team:
 1. I need to be able to easily navigate the site to find what I need.
 2. I would like to find out more info & news about the team.
-3. I want to send a photo or artwork to you.
-4. I wish to follow you on social media.
+3. I would like to see what other A-Team fans have been up to.
+4. I want to send a photo or artwork to you.
+5. I wish to follow you on social media.
 
 
 ## Wireframe Designs
