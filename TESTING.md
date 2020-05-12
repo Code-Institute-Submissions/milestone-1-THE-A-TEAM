@@ -115,6 +115,8 @@
 3. Footer 
     1. Already tested in the Home page section above. (as the code is the same). 
 
+4. Check all the above steps on phone and tablet. 
+
 ### Our News page 
 
 1. Navigation bar 
@@ -129,6 +131,8 @@
 3. Footer 
     1. Already tested in the Home page section above. (as the code is the same). 
 
+4. Check all the above steps on phone and tablet. 
+
 ### Fan Zone page 
 
 1. Navigation bar 
@@ -142,10 +146,13 @@
     3. Check that the 'Upload Fan Image' button opens the upload modal window.
         1. Does the upload modal display ok on smaller screen sizes.
         2. The upload form should check for required fields. (this was not working: missed form tags and required)
-        3. Check the hover effect on the 'Upload' and 'Close' buttons. 
+        3. Confirm that javascript code displays the selected filename.
+        4. Check the hover effect on the 'Upload' and 'Close' buttons. 
 
 3. Footer 
     1. Already tested in the Home page section above. (as the code is the same). 
+
+4. Check all the above steps on phone and tablet. 
 
 ### Contact Us page 
 
@@ -156,6 +163,22 @@
 2. Contact Us form 
 
     1. Check that the form displays on all screen sizes.
+    2. Attempt to submit an empty form, check that each field displays an error when the field is required.
+    3. Check that an error appears if you try to use an invalid email address.
+
+3. Footer 
+    1. Already tested in the Home page section above. (as the code is the same). 
+
+4. Check all the above steps on phone and tablet. 
+
+## Additional Testing 
+1. Asked friends and family to check the site on their phone, tablets and desktops were possible and let me know
+any issues. Got good feedback, the main changes made from this were spelling and grammar changes.
+2. I have tested the site on my desktop using Chrome & Firefox browsers. As well as testing on Android and Apple 
+phones and tablets, were the main issue found was the hero-image an Apple devices which was mentioned above.
+
+
+
 
 
 
