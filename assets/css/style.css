@@ -361,6 +361,7 @@ body {
 .flip-card-back h2 {
     margin: 16px 0 10px;
     color: white;
+    font-size: 1.8em;
     text-align: center;
 }
 
@@ -869,16 +870,62 @@ footer {
         font-size: 1.5em;
     }
 
-/* ------------------------------ Fan zone */
+    /* -------------------------- Fan zone */
     #fan--wall {
         -webkit-column-count: 4;
            -moz-column-count: 4;
                 column-count: 4;
     }
 
-/* -------------------------- Testimonials */
+    /* ---------------------- Testimonials */
     .testimonial--image {
         max-width: 90%;
         height: auto;
+    }
+}
+
+/* larger screens above 2560px width */
+@media only screen and (min-width: 2560px) {
+
+    /* ------------------------------ Body */
+    body {
+        font-size: 1.8em;
+    }
+
+    /* ------ Containers and Page Headings */
+    .fullpage--container {
+        margin-top: 160px;
+    }
+
+    /* -------------------------- Fan zone */
+    #fan--wall {
+        -webkit-column-count: 5;
+           -moz-column-count: 5;
+                column-count: 5;
+    }
+
+    /* ---------------------- Testimonials */
+    .testimonial--image {
+        max-width: 280px;
+        height: auto;
+    }
+
+    .testimonials--quotes::before {
+        top: -48px;
+        left: -44px;
+    }
+
+    /* ------------------------- The Team  */
+    .flip--profile-image, .flip-card {
+        width: 486px;
+        height: 597px;
+    }
+
+    .progressbar--height {
+        height: 28px;
+    }
+
+    .team--subtext {
+        text-align: center;
     }
 }
