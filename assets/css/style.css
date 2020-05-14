@@ -897,6 +897,10 @@ footer {
         margin-top: 160px;
     }
 
+    .page--heading p {
+        padding: 0 440px;
+    }
+
     /* -------------------------- Fan zone */
     #fan--wall {
         -webkit-column-count: 5;
