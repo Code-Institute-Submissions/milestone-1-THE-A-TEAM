@@ -291,9 +291,18 @@ body {
     font-weight: bold;
 }
 
+.default--team-cursor {
+    cursor: pointer;
+}
+
+.ie--team-cursor {
+    cursor: default;
+}
+
 #ie--profile-cards {
     display: none;
 }
+
 
 /* -----------Flip card code/style adapted from tutorial on W3-Schools */
 
@@ -317,7 +326,7 @@ body {
     border-radius: 20px;
     -webkit-perspective: 1000px;
             perspective: 1000px; /* for 3D effect */
-    cursor: pointer;
+    cursor: default;
 }
 
 /* This container is needed to position the front and back side */
