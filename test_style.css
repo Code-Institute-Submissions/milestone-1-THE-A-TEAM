@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+    font-family: 'Play', sans-serif;
+}
+
+/* -------------------------------- Colors */
+.bg--speed {
+    background-color: #9354db;
+}
+
+/* ---------------------------- Navigation */
+.navbar--custom {
+    padding: 0 25px 0 25px;
+    background-color: #4b1214;
+    /* padding-right: 25px;
+    padding-left: 25px; */
+}
+
+.nav-link {
+    font-family: 'Play', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.nav-link p {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-nav {
+}
+
+.navbar--toggler-text {
+    display: block;
+    margin-bottom: 4px;
+    font-size: .5em;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: 2px ridge #fafafa;
+}
+
+.nav--item-width {
+    width: 100%;
+}
+
+.navbar--effect {
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    color: #fff;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+}
+
+.navbar--effect:hover {
+    color: #fff;
+    background-color: #265c77;
+}
+
+.navbar--active, .navbar--active:hover {
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    color: #fff;
+    background-color: #6f1c1f;
+}
+
+.nav--icon  {
+    margin-bottom: 2px;
+    font-size: 1.2em;
+}
+
+.logo--height {
+    height: 70px;
+}
+
+/* ------------------------ Block dividers */
+.block--divider {
+    width: 10%;
+    height: 2px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    border: 0;
+    background-color: #61181a;
+}
+
+/* ---------------------------- Containers */
+.callout--container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+}
+
+.content--container {
+    background-color: #fff;
+}
+
+.fullpage--container {
+    margin-top: 80px; /* was 91px */
+    padding: 0;
+    padding-bottom: 64px;
+}
+
+/* ----------------------------- Home page */
+.hero--image {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/a_team_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.jumbotron {
+    margin-bottom: 16px;
+    padding: 1.5em;
+    border: 1px solid #97ddf5;
+    color: #fff;
+    background-color: rgba(3, 37, 53, 0.8);
+    border-radius: 5px;
+}
+
+.jumbotron h1 {
+    font-size: 1.55em;
+    font-weight: bold;
+}
+
+.jumbotron h2 {
+    font-size: 1.25em;
+}
+
+.down--arrow {
+    margin-bottom: 46px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* ------------------------- Page Headings */
+.page--heading {
+}
+
+.page--heading h2 {
+    margin-top: 30px;    
+    color: #265c77;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.page--heading p {
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.home--page-heading h2 {
+    margin: 64px 0;
+}
+
+/* ----------------------- How can we help */
+.how--help {
+    margin-bottom: 50px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.how--help p {
+    margin-top: 22px;
+    font-size: 1.2em;
+    text-align: justify;
+    /* margin-bottom: 0; */
+}
+
+.how--icon  {
+    padding-top: 20px;
+    font-size: 48px;
+}
+
+.how--icon-box  {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 26px;
+    color: #fff;
+    background-color: #265c77;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.how--shield-circle  {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 128px;
+    height: 128px;
+    border: 6px solid #6f1c1f;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.how--help span {
+    color: #6f1c1f;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* -------------------------- Testimonials */
+
+.testimonials {
+    width: 100%;
+}
+
+.testimonial--content {
+    padding: 20px 40px;
+    background-color: #fff;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonial--image {
+    float: right;
+    padding: 0;
+    border-radius: 50%;
+}
+
+#testimonials--subtext {
+    text-align: center;
+}
+
+.testimonials--quotes::first-letter {
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.testimonials--quotes::before, .testimonials--quotes::after {
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    color: #265c77;
+    font-family: sans-serif; 
+    font-size: 3em;
+    font-style: italic;
+}
+
+.testimonials--quotes::before {
+    content: "\201C";
+}
+
+.testimonials--quotes::after {
+    content: "\201D";
+    top : auto;
+    left: auto;
+    bottom: auto;
+}
+
+.mb--custom-98 {
+    margin-bottom: 98px;
+}
+
+/* ------------------------------ The Team */
+.team--content {
+}
+
+#team--click-text {
+    color: #265c77;
+    font-weight: bold;
+}
+
+#default--profile-cards {
+    display: flex;
+}
+
+#ie--profile-cards {
+    display: none;
+}
+
+/* -----------Flip card code/style adapted from tutorial on W3-Schools */
+
+/* Do the horizontal flip when you click a card */
+#flip--card-ironman.flipped, #flip--card-captain.flipped, #flip--card-widow.flipped,
+#flip--card-hulk.flipped, #flip--card-hawkeye.flipped, #flip--card-thor.flipped {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+/* The flip card container - set the width and height to whatever you want. */
+.flip-card {
+    display: block;
+    width: 324px;
+    height: 398px;
+    /* margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto 50px auto;
+    background-color: transparent;
+    border-radius: 20px;
+    -webkit-perspective: 1000px;
+            perspective: 1000px; /* for 3D effect */
+    cursor: pointer;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    color: black;
+    background-color: grey;
+    background-image: radial-gradient(white 10%, lightblue 32%, black 82%);
+    border-radius: 14px;
+}
+
+/* Style the back side */
+.flip-card-back {
+    color: grey;
+    background-color: #3e4d54;
+    border-radius: 14px;
+    text-align: left;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.flip-card-back h2 {
+    margin: 16px 0 10px;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.flip--profile-image {
+    width: 324px;
+    height: 398px;
+}
+
+.flip--card-prompt {
+    position: absolute;
+    top: 8px;
+    left: 266px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    color: #fafafa;
+    background-color: transparent;
+    font-size: 0.6em;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.progress {
+    background-color: #67757b;
+}
+
+.progressbar--height {
+    height: 20px;
+}
+
+.progress--bar-custom {
+    /* margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 0 20px 8px 20px;
+}
+
+.category--label {
+    margin-top: 15px;
+    padding: 0 0 0 20px;
+    color: #fafafa;
+}
+
+.progressbar--text {
+    padding-right: 10px;
+    color: #fafafa;
+}
+
+/* ---------------------------------------------------------- Our News */
+
+/* ------------Timeline code/style adapted from tutorial on W3-Schools */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 31px;
+    width: 6px;
+    margin-left: -3px;
+    background-color: #6f1c1f;
+}
+
+/* Container around content */
+.timeline--entry {
+    position: relative;
+    width: 100%;
+    padding: 20px 25px 20px 70px;
+    background-color: inherit;
+}
+
+/* circles on the timeline */
+.timeline--entry::after {
+    content: '';
+    position: absolute;
+    top: 44px;
+    right: -16px;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #6f1c1f;
+    background-image: url("../images/shield.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* Place the container to the left */
+.timeline--left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.timeline--right {
+    left: 0%;
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeline--right::before, .timeline--left::before {
+    content: " ";
+    position: absolute;
+    top: 49px;
+    left: 60px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border: medium solid #8fb7cb;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #8fb7cb transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline--right::after, .timeline--left::after {
+    left: 14px;
+}
+
+/* The actual content */
+.timeline--content {
+    position: relative;
+    padding: 20px 30px;
+    background-color: #8fb7cb;
+    text-align: left;
+}
+
+.timeline--content h3 {
+    /* margin-top: 0px; */
+    color: #6f1c1f;
+    font-size: 1.8em;
+}
+
+.timeline--border-right {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.timeline--border-left {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.timeline--media {
+    width: 80%;
+}
+
+.timeline--photo {
+    width: 80%;
+    height: 80%;
+    border: 0px solid #fff;
+}
+
+.timeline--video {
+    width: 80%;
+    height: 80%;
+    border: 0px solid #fff;
+}
+
+/* ------------------------------ Fan zone */
+#fan--wall {
+    clear: both;
+    line-height: 0;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+}
+
+#fan--wall img {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.upload--modal {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #265c77;
+    border-radius: 30px;
+}
+
+.close--modal {
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    opacity: .9;
+}
+
+.btn--modal {
+    color: #fff;
+    background-color: #132e3c;
+    border-color: #132e3c;
+}
+
+.btn--modal:hover {
+    color: #fff;
+    background-color: #0d1e27;
+    border-color: #568593;
+}
+
+.modal-dialog {
+    max-width: 320px;
+    margin: 1.75rem auto;
+    padding: 0;
+}
+
+/* ---------------------------- Contact us */
+
+.contact--form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 22px 22px 26px 22px;
+    background-color: #8fb7cb;
+    border-radius: 30px;
+}
+
+.material--group {
+    background-color: #fff;
+    padding: 0;
+}
+
+.material--input {
+    padding: 0;
+    padding-left: 12px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+.material--group label, .checkbox--header {
+    margin: 0;
+    padding-left: 4px;
+    color: #051d28;
+    font-weight: 600;
+}
+
+.material--input:focus {
+    color: #495057;
+    background-color: transparent;
+    border-bottom: 3px solid #55afdc;
+    -webkit-box-shadow: 0px 0px;
+            box-shadow: 0px 0px;
+    outline: 2px;
+}
+
+.material--group textarea {
+    height: 80px;
+}
+
+.label--team {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.btn--send {
+    padding-top: 2px;
+    border: 2px solid #4b1214;
+    color: #fff;
+    background-color: #4b1214;
+    border-radius: 1em;
+    font-size: 1.4em;
+    font-style: italic;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.btn--send:hover {
+    border: 2px solid #6f1c1f;
+    color: #fff;
+    background-color: #6f1c1f;
+    border-radius: 1em;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.custom-checkbox label {
+    color: #4b1214;
+    font-weight: 600;
+}
+
+/* checkbox styles below with help from 'knetsi' on Stackoverflow */
+.custom-checkbox {
+    padding-left: 2.5em;
+}
+
+.custom-control-label:before{
+    background-color:#fff;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#265c77;
+    border-color: red;
+}
+
+.custom-control-input:active~.custom-control-label::before{
+    background-color: transparent;
+}
+
+.custom-control-label::before ,.custom-control-label::after { 
+    width:24px; 
+    height:24px;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0rem;
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-width: 2px;
+    border-color: #55afdc;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    background-color: #5291b0;
+    border-color: #5291b0;
+}
+
+/* style below to overcome browser style for autofill with help from 'MCBL' on Stackoverflow */
+input:-webkit-autofill, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+            box-shadow: 0 0 0px 1000px white inset;
+}
+
+/* -------------------------------- Footer */
+footer {
+    min-height: 120px;
+    margin: 0;
+    padding: 44px 0 44px 0;
+    border-top: 2px solid #1e4b61;
+    color: #fafafa;
+    background-color: #265c77;
+}
+
+.footer--panel {
+    padding-top: 20px;
+}
+
+.footer--panel p {
+    margin-bottom: 3px;
+}
+
+.social--links li a i,
+.social--links li a i:focus,
+.social--links li a i:active {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 16px 0;
+    color: #fafafa;
+    background: #1b4356;
+    border-radius: 25%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    -webkit-transition: background 0.55s ease-in-out;
+    transition: background 0.55s ease-in-out;
+}
+
+.social--links li a i:hover {
+    background: #61181a;
+}
+
+.social--gap {
+    margin-top: 15px;
+}
+
+/* ------------------------- Media Queries */
+
+/* larger screens above 768px width */
+@media only screen and (min-width: 768px) {
+
+    /* ------------------------ Navigation */
+    .nav--item-width {
+        width: 4em;
+    }
+
+    .nav--icon  {
+        font-size: 1.2em;
+    }
+
+    /* -------------------------- Timeline */
+    .timeline::after {
+        left: 50%;
+    }
+
+    .timeline--entry {
+        width: 50%;
+        padding: 10px 40px;
+    }
+
+    .timeline--entry::after {
+        top: 37px;
+    }
+
+    .timeline--right {
+        left: 50%;
+    }
+
+    .timeline--left::before {
+        top: 42px;
+        left: auto;
+        right: 30px;
+        border: medium solid #8fb7cb;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent #8fb7cb;
+    }
+
+    .timeline--right::before {
+        top: 42px;
+        left: 30px;
+    }
+
+    .timeline--right::after {
+        left: -16px;
+    }
+
+    .timeline--left::after {
+        left: auto;
+    }
+
+    .timeline--content h3 {
+        font-size: 2.2em;
+    }
+
+    .timeline--border-left {
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    /* -------------------------- Fan zone */
+    #fan--wall {
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+                column-count: 3;
+    }
+    
+    .modal-dialog {
+        max-width: 500px;
+    }
+
+    /* ------ Containers and Page Headings */
+    .fullpage--container {
+        margin-top: 98px;
+    }
+
+    .page--heading h2 {
+        margin-top: 50px;
+        font-size: 3.5em;
+    }
+
+    #news--subtext, #contact--subtext {
+        text-align: center;
+    }
+    
+    /* ------------------------ Contact us */
+    .contact--form {
+        width: 80%;
+        padding: 32px 32px 48px 32px;
+    }
+
+    /* ------------------------- Home page */
+    .down--arrow {
+        font-size: 3em;
+    }
+
+    /* ---------------------- Testimonials */
+    .testimonial--image {
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+/* larger screens above 1024px width */
+@media only screen and (min-width: 1024px) {
+
+    /* ------------------------ Navigation */
+    .nav--item-width {
+        width: 5em;
+    }
+
+    .nav--icon  {
+        font-size: 1.2em;
+    }
+ 
+    /* ------------------------- Jumbotron */
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .jumbotron h2 {
+        font-size: 1.5em;
+    }
+
+    /* -------------------------- Fan zone */
+    #fan--wall {
+        -webkit-column-count: 4;
+           -moz-column-count: 4;
+                column-count: 4;
+    }
+
+    /* ---------------------- Testimonials */
+    .testimonial--image {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+/* larger screens above 2560px width */
+@media only screen and (min-width: 2560px) {
+
+    /* ------------------------------ Body */
+    body {
+        font-size: 1.8em;
+    }
+
+    /* ------ Containers and Page Headings */
+    .fullpage--container {
+        margin-top: 160px;
+    }
+
+    .page--heading p {
+        padding: 0 440px;
+    }
+
+    /* -------------------------- Fan zone */
+    #fan--wall {
+        -webkit-column-count: 5;
+           -moz-column-count: 5;
+                column-count: 5;
+    }
+
+    /* ---------------------- Testimonials */
+    .testimonial--image {
+        max-width: 280px;
+        height: auto;
+    }
+
+    .testimonials--quotes::before {
+        top: -48px;
+        left: -44px;
+    }
+
+    /* ------------------------- The Team  */
+    .flip--profile-image, .flip-card {
+        width: 486px;
+        height: 597px;
+    }
+
+    .progressbar--height {
+        height: 28px;
+    }
+
+    .team--subtext {
+        text-align: center;
+    }
+}
