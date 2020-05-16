@@ -291,6 +291,10 @@ body {
     font-weight: bold;
 }
 
+#ie--profile-cards {
+    display: none;
+}
+
 /* -----------Flip card code/style adapted from tutorial on W3-Schools */
 
 /* Do the horizontal flip when you click a card */

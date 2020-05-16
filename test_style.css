@@ -291,9 +291,9 @@ body {
     font-weight: bold;
 }
 
-#default--profile-cards {
+/* #default--profile-cards {
     display: flex;
-}
+} */
 
 #ie--profile-cards {
     display: none;

@@ -93,13 +93,13 @@
                 <div class="col-md-6 col-lg-4">     <!-- IRON MAN card-->
                     <div class="flip-card">
                         <div id="flip--card-ironman" class="flip-card-inner" onclick="this.classList.toggle('flipped')">
-                            <div class="flip-card-front">
+                            <div id="front--ironman" class="flip-card-front">
                                 <img src="assets/images/team/iron_man.png" alt="Iron Man profile" title="Iron Man profile" class="flip--profile-image">
                             </div>
                             <div class="flip--card-prompt d-lg-none">
                                 <span>CLICK<br>TO VIEW</span>
                             </div>
-                            <div class="flip-card-back">
+                            <div id="back--ironman" class="flip-card-back">
                                 <h2>IRONMAN</h2>
                                 <span class="category--label">HEIGHT(cm)</span> 
                                 <div class="progress progress--bar-custom progressbar--height">
@@ -171,13 +171,13 @@
                 <div class="col-md-6 col-lg-4">     <!-- BLACK WIDOW card-->
                     <div class="flip-card">
                         <div id="flip--card-widow" class="flip-card-inner" onclick="this.classList.toggle('flipped')">
-                            <div class="flip-card-front">
+                            <div id="front--widow" class="flip-card-front">
                                 <img src="assets/images/team/black_widow.png" alt="Black Widow profile" title="Black Widow profile" class="flip--profile-image">
                             </div>
                             <div class="flip--card-prompt d-lg-none">
                                 <span>CLICK<br>TO VIEW</span>
                             </div>
-                            <div class="flip-card-back">
+                            <div id="back--widow" class="flip-card-back">
                                 <h2>BLACK WIDOW</h2>
                                 <span class="category--label">HEIGHT(cm)</span> 
                                 <div class="progress progress--bar-custom progressbar--height">
@@ -210,13 +210,13 @@
                 <div class="col-md-6 col-lg-4">     <!-- HULK card-->
                     <div class="flip-card">
                         <div id="flip--card-hulk" class="flip-card-inner" onclick="this.classList.toggle('flipped')">
-                            <div class="flip-card-front">
+                            <div id="front--hulk" class="flip-card-front">
                                 <img src="assets/images/team/hulk.png" alt="Hulk profile" title="Hulk profile" class="flip--profile-image">
                             </div>
                             <div class="flip--card-prompt d-lg-none">
                                 <span>CLICK<br>TO VIEW</span>
                             </div>
-                            <div class="flip-card-back">
+                            <div id="back--hulk" class="flip-card-back">
                                 <h2>HULK</h2>
                                 <span class="category--label">HEIGHT(cm)</span> 
                                 <div class="progress progress--bar-custom progressbar--height">
@@ -249,13 +249,13 @@
                 <div class="col-md-6 col-lg-4">     <!-- HAWKEYE card-->
                     <div class="flip-card">
                         <div id="flip--card-hawkeye" class="flip-card-inner" onclick="this.classList.toggle('flipped')">
-                            <div class="flip-card-front">
+                            <div id="front--hawkeye" class="flip-card-front">
                                 <img src="assets/images/team/hawkeye.png" alt="Hawkeye profile" title="Hawkeye profile" class="flip--profile-image">
                             </div>
                             <div class="flip--card-prompt d-lg-none">
                                 <span>CLICK<br>TO VIEW</span>
                             </div>
-                            <div class="flip-card-back">
+                            <div id="back--hawkeye" class="flip-card-back">
                                 <h2>HAWKEYE</h2>
                                 <span class="category--label">HEIGHT(cm)</span> 
                                 <div class="progress progress--bar-custom progressbar--height">
@@ -288,13 +288,13 @@
                 <div class="col-md-6 col-lg-4">     <!-- THOR card-->
                     <div class="flip-card">
                         <div id="flip--card-thor" class="flip-card-inner" onclick="this.classList.toggle('flipped')">
-                            <div class="flip-card-front">
+                            <div id="front--thor" class="flip-card-front">
                                 <img src="assets/images/team/thor.png" alt="Thor profile" title="Thor profile" class="flip--profile-image">
                             </div>
                             <div class="flip--card-prompt d-lg-none">
                                 <span>CLICK<br>TO VIEW</span>
                             </div>
-                            <div class="flip-card-back">
+                            <div id="back--thor" class="flip-card-back">
                                 <h2>THOR</h2>
                                 <span class="category--label">HEIGHT(cm)</span> 
                                 <div class="progress progress--bar-custom progressbar--height">
@@ -325,11 +325,8 @@
                     </div>                                
                 </div>
             </div>
-            <div id="ie--profile-cards" class="row no-gutters">
-                Please upgrade your browser from Internet Explorer to something like Chrome or FireFox<b>
-                sdsadsad</b><br>
-                sadsdsadsadsadsad
-
+            <div id="ie--profile-cards" class="row no-gutters text-center px-5">
+                Please upgrade your browser from Internet Explorer, this page works much better on Chrome, Firefox or Edge.
             </div>
         </section>
     </main>
@@ -373,6 +370,8 @@
 
     <script>
 
+    // function to check for IE 10 or 11 to help me solve the profile card issue on the Team page
+    // this function by Ryan Wilson was found on stackoverflow.com 
     function isIE() {
         const ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
         const msie = ua.indexOf('MSIE '); // IE 10 or older
@@ -380,16 +379,22 @@
         return (msie > 0 || trident > 0);
     }
 
-    //function to show/hide the correct DIV
+    // function to show/hide the correct DIV
     function IECheck(){
         if(isIE()){
             document.getElementById("ie--profile-cards").style.display = "block";
+            // document.getElementById("default--profile-cards").classList.add("ie--team-cards");
             document.getElementById('team--click-text').innerHTML = "View the team member's stats below";
-            // document.getElementById("default--profile-cards").style.display = "none";
-            document.getElementById("front--captain").classList.add("d-none"); 
-            document.getElementById('back--captain').style.transform = "none";
-            document.getElementById('flip--card-captain').onclick = "null";
-
+            var theTeam = ["captain", "ironman", "widow", "hulk", "hawkeye", "thor"];
+            var x;
+            for (x = 0; x < 6; x++) {
+                displayElement = "front--" + theTeam[x];
+                transElement = "back--" + theTeam[x];
+                clickElement = "flip--card-" + theTeam[x];
+                document.getElementById(displayElement).classList.add("d-none"); 
+                document.getElementById(transElement).style.transform = "none";
+                document.getElementById(clickElement).onclick = "null";
+            }
         }
     }
 
