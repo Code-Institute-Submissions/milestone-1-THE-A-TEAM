@@ -207,7 +207,7 @@ phones and tablets.
 
     When testing on Internet Explorer 11 the call-out message was not formatted correclty and just squashed into a thin column.  
 
-    **FIX:**  
+    **FIX:** 
     Worked fine on all other browsers, it seemed that IE11 was not sizing the jumbotron correctly, but all the styling looked ok. 
     so tried adding xs to the end of the DIV's col-12 and this worked. 
 
@@ -216,8 +216,8 @@ phones and tablets.
     When testing on Internet Explorer the profile cards when clicked to flip just displayed the reverse image of the front 
     of the card.  
 
-    **FIX:**
-    It appeared that the backface-visibilty was am issue in some way.  After some research it appeared that indeed IE does 
+    **FIX:** 
+    It appeared that the backface-visibilty was an issue in some way.  After some research it appeared that indeed IE does 
     have a few issues, however I did stumble across a site using a different flip method which did work on IE11. But to use 
     this alternate method I would have to compromise on how the flip worked, unless I added a lot of Javascript. So, in the 
     end I opted to use a little Javascript to help display a version of the team stats without the flip functionality, but 
