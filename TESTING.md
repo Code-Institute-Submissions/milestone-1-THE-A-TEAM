@@ -42,7 +42,8 @@
     1. The footer links at the bottom of every page allow a client to go to the A-Team's social media pages and follow them.
 
 ### 2. An interested client:
-1. I am interested in finding out more about how you can help me, how do I contact you?
+1. I am interested in finding out more about how you can help me, how do I contact you?  
+
     1. From any page the client can choose the 'Contact Us' option on the navigation bar.
     2. On the Home page the client can also click the 'Get in Touch' button.
 
