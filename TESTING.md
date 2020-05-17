@@ -202,7 +202,7 @@ phones and tablets.
     scrolling over it.  
 
     **FIX:** 
-    Styling looked ok. However, found a thread with a reply by [CyberDave](https://stackoverflow.com/questions/49986720/how-to-detect-internet-explorer-11-and-below-versions) 
+    Styling looked ok. However, found a Webflow thread with a reply by [CyberDave](https://forum.webflow.com/t/ios-fixed-background-image-not-fixed/42895) 
     which helped solve the problem by moving the hero-image into it's own DIV below the container and changing the original 
     styling slightly. 
 
@@ -212,7 +212,7 @@ phones and tablets.
 
     **FIX:** 
     Worked fine on all other browsers, it seemed that IE11 was not sizing the jumbotron correctly, but all the styling looked ok. 
-    so tried adding xs to the end of the DIV's col-12 and this worked. 
+    As IE11 is so old, thought it may have bootstrap issues so tried adding xs to the end of the DIV's col-12 and this worked. 
 
 3. **Team page - Profile cards**  
 
