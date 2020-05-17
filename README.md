@@ -190,7 +190,7 @@ The Iron Man news video is hosted on YouTube and remains the property of it’s 
 (if this was not an educational project, permission would have been sought before using any videos)
 
 ### Code
-The CSS/HTML for the flip-cards on the Team page was adapted from a tutorial on W3-schools. [Flip-cards](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+The CSS/HTML for the flip-cards on the Team page was adapted from a tutorial on W3-schools. [Flip cards](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
 The CSS/HTML for the timeline on the Our News page was adapted from a tutorial on W3-schools. [Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
