@@ -4,7 +4,7 @@ body {
     font-family: 'Play', sans-serif;
 }
 
-/* -------------------------------- Colors */
+/* ---Colors--- */
 .bg--height {
     background-color: #d4840d;
 }
@@ -25,12 +25,10 @@ body {
     background-color: #d43544;
 }
 
-/* ---------------------------- Navigation */
+/* ---Navigation--- */
 .navbar--custom {
     padding: 0 25px 0 25px;
     background-color: #4b1214;
-    /* padding-right: 25px;
-    padding-left: 25px; */
 }
 
 .nav-link {
@@ -100,7 +98,7 @@ body {
     height: 70px;
 }
 
-/* ------------------------ Block dividers */
+/* ---Block dividers--- */
 .block--divider {
     width: 10%;
     height: 2px;
@@ -110,7 +108,7 @@ body {
     background-color: #61181a;
 }
 
-/* ---------------------------- Containers */
+/* ---Containers--- */
 .callout--container {
     position: relative;
     display: -webkit-box;
@@ -130,12 +128,12 @@ body {
 }
 
 .fullpage--container {
-    margin-top: 80px; /* was 91px */
+    margin-top: 80px;
     padding: 0;
     padding-bottom: 64px;
 }
 
-/* ----------------------------- Home page */
+/* ---Home page--- */
 .hero--image {
     position: fixed;
     top: 50px;
@@ -175,7 +173,7 @@ body {
     text-align: center;
 }
 
-/* ------------------------- Page Headings */
+/* ---Page Headings--- */
 .page--heading {
 }
 
@@ -197,7 +195,7 @@ body {
     margin: 64px 0;
 }
 
-/* ----------------------- How can we help */
+/* ---How can we help--- */
 .how--help {
     margin-bottom: 50px;
     padding: 0 40px;
@@ -208,7 +206,6 @@ body {
     margin-top: 22px;
     font-size: 1.2em;
     text-align: justify;
-    /* margin-bottom: 0; */
 }
 
 .how--icon  {
@@ -244,8 +241,7 @@ body {
     font-weight: bold;
 }
 
-/* -------------------------- Testimonials */
-
+/* ---Testimonials--- */
 .testimonials {
     width: 100%;
 }
@@ -298,7 +294,7 @@ body {
     margin-bottom: 98px;
 }
 
-/* ------------------------------ The Team */
+/* ---The Team--- */
 .team--content {
 }
 
@@ -320,7 +316,7 @@ body {
 }
 
 
-/* -----------Flip card code/style adapted from tutorial on W3-Schools */
+/* ---Flip card code/style adapted from tutorial on W3-Schools--- */
 
 /* Do the horizontal flip when you click a card */
 #flip--card-ironman.flipped, #flip--card-captain.flipped, #flip--card-widow.flipped,
@@ -329,14 +325,11 @@ body {
           transform: rotateY(180deg);
 }
 
-/* The flip card container - set the width and height to whatever you want. */
+/* The flip card container */
 .flip-card {
     display: block;
     width: 324px;
     height: 398px;
-    /* margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto 50px auto;
     background-color: transparent;
     border-radius: 20px;
@@ -427,9 +420,6 @@ body {
 }
 
 .progress--bar-custom {
-    /* margin-bottom: 8px;
-    margin-left: 20px;
-    margin-right: 20px; */
     margin: 0 20px 8px 20px;
 }
 
@@ -444,9 +434,10 @@ body {
     color: #fafafa;
 }
 
-/* ---------------------------------------------------------- Our News */
+/* ---Our News--- */
 
-/* ------------Timeline code/style adapted from tutorial on W3-Schools */
+/* ---Timeline code/style adapted from tutorial on W3-Schools--- */
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -531,7 +522,6 @@ body {
 }
 
 .timeline--content h3 {
-    /* margin-top: 0px; */
     color: #6f1c1f;
     font-size: 1.8em;
 }
@@ -560,7 +550,7 @@ body {
     border: 0px solid #fff;
 }
 
-/* ------------------------------ Fan zone */
+/* ---Fan zone--- */
 #fan--wall {
     clear: both;
     line-height: 0;
@@ -608,7 +598,7 @@ body {
     padding: 0;
 }
 
-/* ---------------------------- Contact us */
+/* ---Contact us--- */
 
 .contact--form {
     width: 90%;
@@ -682,7 +672,7 @@ body {
     font-weight: 600;
 }
 
-/* checkbox styles below with help from 'knetsi' on Stackoverflow */
+/* ---checkbox styles below with help from 'knetsi' on Stackoverflow--- */
 .custom-checkbox {
     padding-left: 2.5em;
 }
@@ -724,13 +714,13 @@ body {
     border-color: #5291b0;
 }
 
-/* style below to overcome browser style for autofill with help from 'MCBL' on Stackoverflow */
+/* ---style below to overcome browser style for autofill with help from 'MCBL' on Stackoverflow--- */
 input:-webkit-autofill, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
             box-shadow: 0 0 0px 1000px white inset;
 }
 
-/* -------------------------------- Footer */
+/* ---Footer--- */
 footer {
     min-height: 120px;
     margin: 0;
@@ -773,12 +763,12 @@ footer {
     margin-top: 15px;
 }
 
-/* ------------------------- Media Queries */
+/* ---Media Queries--- */
 
-/* larger screens above 768px width */
+/* ---larger screens above 768px width--- */
 @media only screen and (min-width: 768px) {
 
-    /* ------------------------ Navigation */
+    /* ---Navigation--- */
     .nav--item-width {
         width: 4em;
     }
@@ -787,7 +777,7 @@ footer {
         font-size: 1.2em;
     }
 
-    /* -------------------------- Timeline */
+    /* ---Timeline--- */
     .timeline::after {
         left: 50%;
     }
@@ -835,7 +825,7 @@ footer {
         border-radius: 50px 0px 0px 50px;
     }
 
-    /* -------------------------- Fan zone */
+    /* ---Fan zone--- */
     #fan--wall {
         -webkit-column-count: 3;
            -moz-column-count: 3;
@@ -846,7 +836,7 @@ footer {
         max-width: 500px;
     }
 
-    /* ------ Containers and Page Headings */
+    /* ---Containers and Page Headings--- */
     .fullpage--container {
         margin-top: 98px;
     }
@@ -860,28 +850,28 @@ footer {
         text-align: center;
     }
     
-    /* ------------------------ Contact us */
+    /* ---Contact us--- */
     .contact--form {
         width: 80%;
         padding: 32px 32px 48px 32px;
     }
 
-    /* ------------------------- Home page */
+    /* ---Home page--- */
     .down--arrow {
         font-size: 3em;
     }
 
-    /* ---------------------- Testimonials */
+    /* ---Testimonials--- */
     .testimonial--image {
         max-width: 60%;
         height: auto;
     }
 }
 
-/* larger screens above 1024px width */
+/* ---larger screens above 1024px width--- */
 @media only screen and (min-width: 1024px) {
 
-    /* ------------------------ Navigation */
+    /* ---Navigation--- */
     .nav--item-width {
         width: 5em;
     }
@@ -890,7 +880,7 @@ footer {
         font-size: 1.2em;
     }
  
-    /* ------------------------- Jumbotron */
+    /* ---Jumbotron--- */
     .jumbotron h1 {
         font-size: 2em;
     }
@@ -899,29 +889,29 @@ footer {
         font-size: 1.5em;
     }
 
-    /* -------------------------- Fan zone */
+    /* ---Fan zone--- */
     #fan--wall {
         -webkit-column-count: 4;
            -moz-column-count: 4;
                 column-count: 4;
     }
 
-    /* ---------------------- Testimonials */
+    /* ---Testimonials--- */
     .testimonial--image {
         max-width: 90%;
         height: auto;
     }
 }
 
-/* larger screens above 2560px width */
+/* ---larger screens above 2560px width--- */
 @media only screen and (min-width: 2560px) {
 
-    /* ------------------------------ Body */
+    /* ---Body--- */
     body {
         font-size: 1.8em;
     }
 
-    /* ------ Containers and Page Headings */
+    /* ---Containers and Page Headings--- */
     .fullpage--container {
         margin-top: 160px;
     }
@@ -930,14 +920,14 @@ footer {
         padding: 0 440px;
     }
 
-    /* -------------------------- Fan zone */
+    /* ---Fan zone--- */
     #fan--wall {
         -webkit-column-count: 5;
            -moz-column-count: 5;
                 column-count: 5;
     }
 
-    /* ---------------------- Testimonials */
+    /* ---Testimonials--- */
     .testimonial--image {
         max-width: 280px;
         height: auto;
@@ -948,7 +938,7 @@ footer {
         left: -44px;
     }
 
-    /* ------------------------- The Team  */
+    /* ---The Team---  */
     .flip--profile-image, .flip-card {
         width: 486px;
         height: 597px;
