@@ -195,7 +195,7 @@ any issues. Got good feedback, the main changes made from this were spelling and
 phones and tablets.
 
 ## Errors Found
-(only includes main errors rather than small typos/alignment which caused the minor issues)  
+(only includes main errors rather than small typos/alignment which caused only minor errors)  
 
 1. **Home page - Hero-image**  
 
