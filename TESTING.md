@@ -192,27 +192,36 @@ any issues. Got good feedback, the main changes made from this were spelling and
 2. I have tested the site on a desktop using using the following browsers: Chrome, Firefox, Edge and Internet Explorer 11. As well as testing on Android and Apple 
 phones and tablets.
 
-## Errors Found - (only includes main errors rather than small typos which caused the odd issue)
-1. Home page - Hero-image 
+## Errors Found
+(only includes main errors rather than small typos which caused the odd issue)  
+
+1. **Home page - Hero-image**  
+
     When testing on an actual Apple device the hero-image did not size correctly and also scrolled out the way rather than content
-    scrolling over it.
-    *FIX:* 
+    scrolling over it.  
+
+    **FIX:** 
     Styling looked ok. Moved the hero-image background-image styling into it's own DIV below the container. 
 
-2. Home page - Call-out message 
-    When testing on Internet Explorer 11 the call-out message was not formatted correclty and just squashed into a thin column.
-    *FIX:* 
+2. **Home page - Call-out message**  
+
+    When testing on Internet Explorer 11 the call-out message was not formatted correclty and just squashed into a thin column.  
+
+    **FIX:**  
     Worked fine on all other browsers, it seemed that IE11 was not sizing the jumbotron correctly, but all the styling looked ok. 
     so tried adding xs to the end of the DIV's col-12 and this worked. 
 
-3. Team page - profile cards 
-    When testing on Internet Explorer the profile cards when clicked to flip just displayed the reverse image of the front of the card.
-    *FIX:*
-    It appeared that the backface-visibilty was am issue in some way.  After some research it appeared that indeed IE does have a few 
-    issues, however I did stumble across a site using a different flip method which did work on IE11. But to use this alternate method I 
-    would have to compromise on how the flip worked, unless I added a lot of Javascript. So, in the end I opted to use a little Javascript 
-    to help display a version of the team stats without the flip functionality, but at the same time without adding any extra content apart
-    from a sub-text change and a message about using Internet Explorer.
+3. **Team page - profile cards**  
+
+    When testing on Internet Explorer the profile cards when clicked to flip just displayed the reverse image of the front 
+    of the card.  
+
+    **FIX:**
+    It appeared that the backface-visibilty was am issue in some way.  After some research it appeared that indeed IE does 
+    have a few issues, however I did stumble across a site using a different flip method which did work on IE11. But to use 
+    this alternate method I would have to compromise on how the flip worked, unless I added a lot of Javascript. So, in the 
+    end I opted to use a little Javascript to help display a version of the team stats without the flip functionality, but 
+    at the same time without adding any extra content apart from a sub-text change and a message about using Internet Explorer.
 
     
 
