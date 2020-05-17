@@ -171,6 +171,7 @@ body {
     color: #fff;
     font-size: 2em;
     text-align: center;
+    text-shadow: -2px 0 #102835, 0 2px #173441, 2px 0 #16313f, 0 -2px #0d2838;
 }
 
 /* ---Page Headings--- */
@@ -858,7 +859,7 @@ footer {
 
     /* ---Home page--- */
     .down--arrow {
-        font-size: 3em;
+        font-size: 3.25em;
     }
 
     /* ---Testimonials--- */
