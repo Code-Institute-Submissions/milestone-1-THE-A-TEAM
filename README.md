@@ -72,6 +72,7 @@ found the use of italic and normal gives the impression of using two fonts witho
 ## Technologies Used
 - HTML
 - CSS
+- JavaScript
 - [Bootstrap v4.4.1](https://getbootstrap.com/) - used to help with grid layout and responsive design.
 - [jQuery](https://jquery.com/) - responsive Bootstrap navbar, fill in form value on the upload file selection.
 - [FontAwesome](https://fontawesome.com/) - for the site icons.
@@ -200,8 +201,9 @@ Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping s
 ## Acknowledgments
 
 Inspiration for this project came from:
-Remembering the 80’s TV show **The A-Team**, about a band of mercenaries, whom, if you could find them, then you could 
-hire them to solve your problem. Taking that core idea and merging it with some of the characters from Marvel's Avengers. 
+Remembering the 80’s TV show **[The A-Team](https://en.wikipedia.org/wiki/The_A-Team)**, about a band of mercenaries, 
+whom, if you could find them, then you could hire them to solve your problem. Taking that core idea and merging it 
+with some of the characters from **[Marvel's Avengers](https://en.wikipedia.org/wiki/The_Avengers_(2012_film))**. 
 A big thank you to my mentor, the Slack communnity and many great reference sites out there including Stackoverflow and W3Schools.
 
 ## Disclaimer
