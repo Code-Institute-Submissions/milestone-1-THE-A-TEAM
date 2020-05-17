@@ -7,9 +7,9 @@ The live deployed site can be accessed using the following link: [The A-Team](ht
 
 ## Business goals
 
-Their primary target audience are their potential customers who would want to hire them to help them solve a problem, these 
-potential clients would need to see information to help them make an informed decision to hire the team. Teams info, previous 
-mission news, etc
+Their primary target audience are potential customers who would want to hire them to help them solve a problem. These 
+potential clients would need to see information to help them make an informed decision to hire the team, such as team 
+stats, previous mission news, etc
 If time permits the A-Team would also like a small fan section to showcase what their loyal band of public followers & fans 
 are up to.
  
@@ -63,10 +63,10 @@ Click the link below to view a PDF file containing all the wireframe designs for
 [Wireframe PDF](https://devtoguk.github.io/milestone-1-THE-A-TEAM/assets/images/pdf/wireframes.pdf)  (ctrl-click to open in a new tab)   
 
 ## Surface
-The “petrol blue” and “dark maroon” colours were chosen from the Home page hero-image key characters and used 
+The "petrol blue" and "dark maroon" colours were chosen from the Home page "hero-image" key characters and used 
 throughout the site to create a consistent feel, but always having an eye on contrast so elements are easy to read.
 
-Decided on the Googlefont “Play” as when made italic it blends very nicely to the logo. Also at the same time I 
+Chose the Googlefont “Play” as when made italic it blends very nicely to the logo. Also at the same time I 
 found the use of italic and normal gives the impression of using two fonts without having to download a second.
 
 ## Technologies Used
@@ -90,9 +90,13 @@ At the bottom of all site pages is the footer which gives the main address infor
 The Home page has an hero-image to create impact when you first arrive on the site.
 Within the hero image is a call to action statement to prompt a potential client to get in touch.
 After the hero-image are two sections, the first to inform potential clients how The A-Team can help including a button to link to
-the contact us page and the second to give some cliebt testimonials.
+the contact us page and the second to give some clients testimonials.
 
-Responsive info here...
+On desktops and tablets the 'We can help' section displays in three seperate columns, while on smaller screens and mobiles 
+it then displays in one continuous column. 
+
+The testimonials section displays in two columns with images on desktop and tablets, on smaller screens they display in one
+column with images, and finally on mobiles the testimonial images are not shown.
 
 [The Team](https://devtoguk.github.io/milestone-1-THE-A-TEAM/team.html) 
 
@@ -107,9 +111,9 @@ On desktop & tablet these stories show either side of a news line, on mobiles th
 [Fan Zone](https://devtoguk.github.io/milestone-1-THE-A-TEAM/fanzone.html) 
 
 The Fan Zone page simply shows photos and artwork which has been sent in by The A-Team fans.
-On desktop and tablets these images display in four columns, on mobiles they display in two columns.
+On desktop and tablets these images display in four/thrre columns, on mobiles they display in two columns.
 
-Below these images is a button which allows fans to send in their images to be displayed here after review.
+Below these images is a button which allows fans to send in their images.
 
 [Contact Us](https://devtoguk.github.io/milestone-1-THE-A-TEAM/contact.html) 
 
@@ -135,10 +139,10 @@ The live project was deployed using GitHub Pages, this was done using the proced
 - Scroll down to the “GitHub Pages” section.
 - Under Source choose ‘master branch’.
 
-The Source section will now read.
+The Source section will now read:
 “ Your GitHub Pages site is currently being built from the master branch. ”
 
-When the site is deployed and ready to access, it will then read.
+When the site is deployed and ready to access, it will then read:
 “ Your site is published at https://devtoguk.github.io/milestone-1-THE-A-TEAM/ ”
 
 The live site can now be accessed using the link below:  
@@ -148,7 +152,7 @@ https://devtoguk.github.io/milestone-1-THE-A-TEAM/
 If you wish to work on / run this project locally then use the cloning procedure below:
 
 - Login to GitHub.
-- Navigated to the projects repository “milestone-1-THE-A-TEAM”
+- Navigate to the projects repository “milestone-1-THE-A-TEAM”
 - Click Clone or Download under the repository name.
 - To clone the repository using HTTPS, under “Clone with HTTPS”, click the [copy to clipboard] icon next to the URL field.
 - Open Git Bash on your local IDE.
@@ -164,7 +168,7 @@ For more information and troubleshooting on cloning a repository from GitHub cl
 ## Credits
 
 ### Text content
-Apart from character names all text content has been written by R.Thompson and proof read by E. Thompson 
+Apart from character names all text content has been written by R.Thompson and proof read by E. Thompson. 
 All character names remain the property of their respective owners.
 
 ### Logo
@@ -198,7 +202,7 @@ Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping s
 Inspiration for this project came from:
 Remembering the 80’s TV show **The A-Team**, about a band of mercenaries, whom, if you could find them, then you could 
 hire them to solve your problem. Taking that core idea and merging it with some of the characters from Marvel's Avengers. 
-A big thank you to my mentor , the Slack communnity and many great reference sites out there including Stackoverflow and W3Schools.
+A big thank you to my mentor, the Slack communnity and many great reference sites out there including Stackoverflow and W3Schools.
 
 ## Disclaimer
 The content of this website is solely for educational purposes.
