@@ -8,6 +8,7 @@
 - [W3C - Markup Validation Service](https://validator.w3.org/) - used to check the markup validity of the HTML documents.
 - [W3C - CSS Validation Service](https://jigsaw.w3.org/css-validator/) - used to check the validity of the Cascading Style Sheets (CSS).
 - [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - used to help check the responsiveness of the site and also use of Audits to test for performance, accessibility, best practices & SEO
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - used for further performance check.  
 
 ## User stories testing (UX section of README.md)
 
@@ -193,7 +194,7 @@ any issues. Got good feedback, the main changes made from this were spelling and
 phones and tablets.
 
 ## Errors Found
-(only includes main errors rather than small typos which caused the odd issue)  
+(only includes main errors rather than small typos/alignment which caused the minor issues)  
 
 1. **Home page - Hero-image**  
 
@@ -201,7 +202,9 @@ phones and tablets.
     scrolling over it.  
 
     **FIX:** 
-    Styling looked ok. Moved the hero-image background-image styling into it's own DIV below the container. 
+    Styling looked ok. However, found a thread with a reply by [CyberDave](https://stackoverflow.com/questions/49986720/how-to-detect-internet-explorer-11-and-below-versions) 
+    which helped solve the problem by moving the hero-image into it's own DIV below the container and changing the original 
+    styling slightly. 
 
 2. **Home page - Call-out message**  
 
@@ -211,9 +214,9 @@ phones and tablets.
     Worked fine on all other browsers, it seemed that IE11 was not sizing the jumbotron correctly, but all the styling looked ok. 
     so tried adding xs to the end of the DIV's col-12 and this worked. 
 
-3. **Team page - profile cards**  
+3. **Team page - Profile cards**  
 
-    When testing on Internet Explorer the profile cards when clicked to flip just displayed the reverse image of the front 
+    When testing on Internet Explorer 11, the profile cards when clicked to flip just displayed the reverse image of the front 
     of the card.  
 
     **FIX:** 
@@ -222,17 +225,4 @@ phones and tablets.
     this alternate method I would have to compromise on how the flip worked, unless I added a lot of Javascript. So, in the 
     end I opted to use a little Javascript to help display a version of the team stats without the flip functionality, but 
     at the same time without adding any extra content apart from a sub-text change and a message about using Internet Explorer.
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
+    A JavaScript code snippet by [Ryan Wilson](https://stackoverflow.com/questions/49986720/how-to-detect-internet-explorer-11-and-below-versions) was used to help me detect the IE11 browser.
