@@ -87,12 +87,14 @@
     5. Confirm that each navbar item when clicked links to the correct page and the background-color changes to indicate the 
     current page. 
 
-2. Hero-image 
+2. Hero-image / Call out message
 
     1. Make sure the hero-image is responsive as the browser width is changed.
-    (when testing on an actual Apple device the hero-image did not size correctly, so it was put in a new DIV)
+    (problem found on Apple device - see Errors Found section below)
     2. Ensure the hero-image remains fixed while the content below scrolls over the top.
-    (when testing on an actual Apple device the hero-image moved, solution as above 3.1) 
+    (problem found on Apple device - see Errors Found section below)
+    3. Does the call-out message display clearly? 
+    (problem found on IE11 - see Errors section below)
 
 3. We Can Help section 
 
@@ -119,7 +121,8 @@
     1. Already tested in the Home page section above. (as the code is the same). 
 
 2. Team Profile Cards 
-    1. Make sure that when clicked the card transistion effect is working to see the stats and click to rotate back to the member image.
+    1. Make sure that when clicked the card transistion effect is working to see the stats and click to rotate back to the team member image. 
+    (problem found on IE11 - see Errors Found section below)
     2. Change the browser width to ensure that the 6 cards are arranged responsively depending on the screen size.
     3. Ensure that the stat information displays correctly.
     4. Check that on smaller screens the 'CLICK TO VIEW' text appears in the top-right of each card. 
@@ -186,8 +189,33 @@
 ## Additional Testing 
 1. Asked friends and family to check the site on their phone, tablets and desktops were possible and let me know
 any issues. Got good feedback, the main changes made from this were spelling and grammar changes.
-2. I have tested the site on a few desktops using Chrome & Firefox browsers. As well as testing on Android and Apple 
-phones and tablets, were the main issue found was the hero-image an Apple devices which was mentioned above.
+2. I have tested the site on a desktop using using the following browsers: Chrome, Firefox, Edge and Internet Explorer 11. As well as testing on Android and Apple 
+phones and tablets.
+
+## Errors Found - (only includes main errors rather than small typos which caused the odd issue)
+1. Home page - Hero-image 
+    When testing on an actual Apple device the hero-image did not size correctly and also scrolled out the way rather than content
+    scrolling over it.
+    *FIX:* 
+    Styling looked ok. Moved the hero-image background-image styling into it's own DIV below the container. 
+
+2. Home page - Call-out message 
+    When testing on Internet Explorer 11 the call-out message was not formatted correclty and just squashed into a thin column.
+    *FIX:* 
+    Worked fine on all other browsers, it seemed that IE11 was not sizing the jumbotron correctly, but all the styling looked ok. 
+    so tried adding xs to the end of the DIV's col-12 and this worked. 
+
+3. Team page - profile cards 
+    When testing on Internet Explorer the profile cards when clicked to flip just displayed the reverse image of the front of the card.
+    *FIX:*
+    It appeared that the backface-visibilty was am issue in some way.  After some research it appeared that indeed IE does have a few 
+    issues, however I did stumble across a site using a different flip method which did work on IE11. But to use this alternate method I 
+    would have to compromise on how the flip worked, unless I added a lot of Javascript. So, in the end I opted to use a little Javascript 
+    to help display a version of the team stats without the flip functionality, but at the same time without adding any extra content apart
+    from a sub-text change and a message about using Internet Explorer.
+
+    
+
 
 
 
