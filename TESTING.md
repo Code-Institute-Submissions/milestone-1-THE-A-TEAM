@@ -19,7 +19,7 @@
     1. Whatever page a potential client lands on they are easily able to find and use the site navigation menu.
     2. The A-Team logo on all pages also leads the client back to the Home page. 
 
-2. I want to find out how the team could help me. 
+2. I want to find out how the team could help me.  
 
     1. After the call to action message on the Home page the arrows encourage the user to scroll down where they can find key information about how the A-Team can help.
     2. By choosing 'The Team' option on the navigation bar a client can see the abilities of each member of the team.
