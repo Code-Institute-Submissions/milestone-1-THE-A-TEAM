@@ -5,8 +5,24 @@ body {
 }
 
 /* -------------------------------- Colors */
+.bg--height {
+    background-color: #d4840d;
+}
+
+.bg--intelli {
+    background-color: #0066ff;
+}
+
+.bg--strength {
+    background-color: #25843b;
+}
+
 .bg--speed {
-    background-color: #9354db;
+    background-color: #9055d3;
+}
+
+.bg--fight {
+    background-color: #d43544;
 }
 
 /* ---------------------------- Navigation */
@@ -364,7 +380,7 @@ body {
 /* Style the back side */
 .flip-card-back {
     color: grey;
-    background-color: #3e4d54;
+    background-color: #41535b;
     border-radius: 14px;
     text-align: left;
     -webkit-transform: rotateY(180deg);
@@ -420,7 +436,7 @@ body {
 .category--label {
     margin-top: 15px;
     padding: 0 0 0 20px;
-    color: #fafafa;
+    color: #fdfdfd;
 }
 
 .progressbar--text {
