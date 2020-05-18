@@ -184,6 +184,8 @@ These images remain the property of their respective copyright owners.
 Some images have been enhanced or combined to create the effect required.
 - Flip-card team images: outer-glow added to the PNG file.
 - Covid-19 news image made up from three separate images Earth, Hulk & virus images layered in Adobe Photoshop.
+- Testimonial images are a composite of two seperate images to create the right photo for the statement.  
+
 
 ### Videos
 The Iron Man news video is hosted on YouTube and remains the property of it’s respective copyright owner.
