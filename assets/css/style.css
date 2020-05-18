@@ -146,6 +146,7 @@ body {
 }
 
 .jumbotron {
+    max-width: 320px;
     margin-bottom: 16px;
     padding: 1.5em;
     border: 1px solid #97ddf5;
@@ -761,6 +762,11 @@ footer {
 
 /* ---larger screens above 768px width--- */
 @media only screen and (min-width: 768px) {
+
+    /* ---Jumbotron--- */
+    .jumbotron {
+        max-width: none;
+    }
 
     /* ---Navigation--- */
     .nav--item-width {
