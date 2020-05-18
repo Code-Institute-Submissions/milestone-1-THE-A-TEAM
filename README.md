@@ -123,10 +123,13 @@ First name, Last name, Email address, Select team member(s) they think they need
 
 At the bottom of the form is a ‘Get Help’ button to send the form.
 
-## Future Features
+## Future Features/Changes
 - Add more detail to news stories, once clicked on they open up to show the bigger storyline and maybe extra images.
 - Add more profile cards as new team members join The A-Team.
 - Enhance the fan zone, maybe add in a merchandise section.
+- Look into some layout changes for larger resolutions (inc.4K). Ensuring the site displayed ok at some of these resolutions was quite 
+challenging, especially with Bootstraps responsive system stopping at XL(>1200px), so reluctantly a little more media-query was used 
+in the current layout.
 
 ## Testing
 For testing information please use the following link [TESTING.md](/TESTING.md)
