@@ -199,7 +199,7 @@ The CSS/HTML for the flip-cards on the Team page was adapted from a tutorial on 
 
 The CSS/HTML for the timeline on the Our News page was adapted from a tutorial on W3-schools. [Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
-Thanks to the Stackoverflow community (https://stackoverflow.com/) for helping solve some CSS problems. 
+Thanks to the Stackoverflow and Webflow communities for helping solve some CSS problems. 
 - Changing the appearance of an auto-filled field set by the browser. [Stackoverflow thread](https://stackoverflow.com/questions/2338102/override-browser-form-filling-and-input-highlighting-with-html-css)
 - How to change the styling on the Bootstrap custom-checkboxes. [Stackoverflow thread](https://stackoverflow.com/posts/48373150/revisions)
 - Fixing the hero-image problem on Apple devices. [Webflow thread](https://forum.webflow.com/t/ios-fixed-background-image-not-fixed/42895)  
