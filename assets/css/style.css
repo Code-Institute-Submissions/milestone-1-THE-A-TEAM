@@ -125,7 +125,7 @@ body {
 }
 
 .fullpage--container {
-    margin-top: 80px;
+    margin-top: 5.5em; /* 80px; */
     padding: 0;
     padding-bottom: 64px;
 }
@@ -830,11 +830,6 @@ footer {
         max-width: 500px;
     }
 
-    /* ---Containers and Page Headings--- */
-    .fullpage--container {
-        margin-top: 98px;
-    }
-
     .page--heading h2 {
         margin-top: 50px;
         font-size: 3.5em;
@@ -901,7 +896,6 @@ footer {
 @media only screen and (min-width: 1440px) {
 
     /* ---Containers and Page Headings--- */
-
     .page--heading p {
         font-size: 1.2em;
     }
@@ -911,7 +905,6 @@ footer {
         height: 3px;
         margin-bottom: 65px;
     }
-
 }
 
 /* ---larger screens above 1920px width--- */
@@ -920,11 +913,6 @@ footer {
     /* ---Body--- */
     body {
         font-size: 1.8em;
-    }
-
-    /* ---Containers and Page Headings--- */
-    .fullpage--container {
-        margin-top: 160px;
     }
 
     /* ---Navigation--- */
@@ -959,5 +947,4 @@ footer {
     .progressbar--height {
         height: 28px;
     }
-
 }
