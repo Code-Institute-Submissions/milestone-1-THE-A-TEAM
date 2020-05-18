@@ -194,7 +194,7 @@ any issues. Got good feedback, the main changes made from this were spelling and
 2. I have tested the site on a desktop using the following browsers: Chrome, Firefox, Edge and Internet Explorer 11. As well as testing on Android and Apple 
 phones and tablets.
 
-## Errors Found
+## Errors/Issues Found
 (only includes main errors rather than small typos/alignment which caused only minor errors)  
 
 1. **Home page - Hero-image**  
@@ -227,3 +227,7 @@ phones and tablets.
     end I opted to use a little Javascript to help display a version of the team stats without the flip functionality, but 
     at the same time without adding any extra content apart from a sub-text change and a message about using Internet Explorer.
     A JavaScript code snippet by [Ryan Wilson](https://stackoverflow.com/questions/49986720/how-to-detect-internet-explorer-11-and-below-versions) was used to help me detect the IE11 browser.
+
+4. **Higher Resolutions**
+    After testing some changes needed to be made to help accomodate the much larger resolutions 1920px and above.  
+    

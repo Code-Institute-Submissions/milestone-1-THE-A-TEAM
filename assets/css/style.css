@@ -48,9 +48,6 @@ body {
     color: #fff;
 }
 
-.navbar-nav {
-}
-
 .navbar--toggler-text {
     display: block;
     margin-bottom: 4px;
@@ -175,9 +172,6 @@ body {
 }
 
 /* ---Page Headings--- */
-.page--heading {
-}
-
 .page--heading h2 {
     margin-top: 30px;    
     color: #265c77;
@@ -188,8 +182,12 @@ body {
 }
 
 .page--heading p {
-    padding: 0 40px;
     text-align: justify;
+}
+
+.page--heading div {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .home--page-heading h2 {
@@ -296,9 +294,6 @@ body {
 }
 
 /* ---The Team--- */
-.team--content {
-}
-
 .team--click-text {
     color: #265c77;
     font-weight: bold;
@@ -315,7 +310,6 @@ body {
 #ie--profile-cards {
     display: none;
 }
-
 
 /* ---Flip card code/style adapted from tutorial on W3-Schools--- */
 
@@ -600,7 +594,6 @@ body {
 }
 
 /* ---Contact us--- */
-
 .contact--form {
     width: 90%;
     margin: 0 auto;
@@ -910,7 +903,6 @@ footer {
     /* ---Containers and Page Headings--- */
 
     .page--heading p {
-        padding: 0 220px;
         font-size: 1.2em;
     }
 
@@ -933,10 +925,6 @@ footer {
     /* ---Containers and Page Headings--- */
     .fullpage--container {
         margin-top: 160px;
-    }
-
-    .page--heading p {
-        padding: 0 440px;
     }
 
     /* ---Navigation--- */
@@ -972,7 +960,4 @@ footer {
         height: 28px;
     }
 
-    .team--subtext {
-        text-align: center;
-    }
 }
